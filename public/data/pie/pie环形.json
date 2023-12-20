@@ -1,0 +1,356 @@
+{
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "RFM类别": "中等价值用户",
+        "sum(会员数)": 1224239,
+        "sum(会员数) percent": 0.33333750831479325,
+        "创建日期 YEAR": "2015"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(会员数)": 907959,
+        "sum(会员数) percent": 0.24722034726225137,
+        "创建日期 YEAR": "2015"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(会员数)": 811238,
+        "sum(会员数) percent": 0.2208850180154988,
+        "创建日期 YEAR": "2015"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(会员数)": 177425,
+        "sum(会员数) percent": 0.048309527316767555,
+        "创建日期 YEAR": "2018"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(会员数)": 170686,
+        "sum(会员数) percent": 0.046474622965139,
+        "创建日期 YEAR": "2016"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(会员数)": 145666,
+        "sum(会员数) percent": 0.03966214234817113,
+        "创建日期 YEAR": "2017"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(会员数)": 105868,
+        "sum(会员数) percent": 0.02882588720851936,
+        "创建日期 YEAR": "2017"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(会员数)": 103063,
+        "sum(会员数) percent": 0.028062137882756175,
+        "创建日期 YEAR": "2016"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(会员数)": 26527,
+        "sum(会员数) percent": 0.007222808686103384,
+        "创建日期 YEAR": "2018"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "创建日期 YEAR"
+      ],
+      "labels": [
+        null,
+        "RFM类别"
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    },
+    "8eb506f855a511edbc89caaca93f1505": {
+      "dashboardId": "bccb7b4650ee11edb6379efbdeb1d4c9"
+    }
+  },
+  "config": {
+    "code": 0,
+    "css": {
+      "checked": true,
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "创建日期 YEAR",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "2015",
+              "val": "2015"
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "2018",
+              "val": "2018"
+            },
+            {
+              "color": "rgba(133, 67, 224, 1)",
+              "originalVal": "2016",
+              "val": "2016"
+            },
+            {
+              "color": "rgba(63, 174, 204, 1)",
+              "originalVal": "2017",
+              "val": "2017"
+            }
+          ],
+          "name": "创建日期 YEAR",
+          "opacity": 100
+        }
+      ],
+      "innerRadius": 1,
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": true,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(会员数)",
+          "keyId": "0-0",
+          "originalKey": "",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(会员数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": true,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(会员数) percent",
+          "keyId": "0-0",
+          "originalKey": "",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(会员数) percent",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "key": "RFM类别",
+          "keyId": "1-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "originalChecked": true,
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "创建日期 YEAR",
+          "key": "创建日期 YEAR",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "创建日期 YEAR",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": true,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": true,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(会员数)",
+          "key": "sum(会员数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": true,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#F59E28",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "进货次数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": true,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(会员数) percent",
+          "key": "sum(会员数) percent",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(会员数) percent",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "创建日期",
+        "split": "YEAR"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "会员数"
+        },
+        {
+          "dtype": "CAT",
+          "name": "RFM类别"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "会员数"
+      }
+    },
+    "worksheet_id": "8eb506f855a511edbc89caaca93f1505",
+    "worksheet_idx": 9,
+    "worksheet_name": "canvas9",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas9",
+    "worksheet_title_css": null,
+    "worksheet_type": "06",
+    "dpr": 2
+  }
+}

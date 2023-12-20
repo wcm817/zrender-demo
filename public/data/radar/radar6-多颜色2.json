@@ -1,0 +1,600 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "RFM类别",
+          "fillType": "fill",
+          "key": "sum(进货次数)",
+          "keyId": "0-0",
+          "keyName": "进货次数",
+          "list": {
+            "一般用户": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "中等价值用户": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "高价值用户": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            }
+          },
+          "opacity": 100,
+          "originalKey": "sum(进货次数)",
+          "type": "ordinal"
+        },
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "城市级别",
+          "fillType": "fill",
+          "key": "sum(门店数)",
+          "keyId": "1-0",
+          "keyName": "门店数",
+          "list": {
+            "2线中等发达城市": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "2线发展较弱城市": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "2线发达城市": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "3线城市": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "4线城市": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "5线城市": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "null": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            }
+          },
+          "opacity": 100,
+          "originalKey": "sum(门店数)",
+          "type": "ordinal"
+        }
+      ],
+      "fitModel": "full",
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "labelsList": [],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "lineSize": 31,
+      "scopeList": [],
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(进货次数)",
+          "key": "sum(进货次数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(进货次数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "城市级别",
+          "key": "城市级别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "城市级别",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "ncols": 1000,
+      "x": [
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "color": {
+              "dtype": "CAT",
+              "name": "RFM类别"
+            },
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "name": "进货次数"
+          }
+        },
+        {
+          "feature": {
+            "color": {
+              "dtype": "CAT",
+              "name": "城市级别"
+            },
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "name": "门店数"
+          }
+        }
+      ]
+    },
+    "worksheet_id": "1af5504e6af711ed95c89ad36b557c96",
+    "worksheet_idx": 24,
+    "worksheet_name": "canvas24",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas24",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "RFM类别": "一般用户",
+            "sum(进货次数)": 282,
+            "区域": "西南区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(进货次数)": null,
+            "区域": "西南区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(进货次数)": 31,
+            "区域": "西南区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(进货次数)": 2,
+            "区域": "华北区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(进货次数)": null,
+            "区域": "华北区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(进货次数)": null,
+            "区域": "华北区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(进货次数)": 130,
+            "区域": "西北区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(进货次数)": 30,
+            "区域": "西北区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(进货次数)": 23,
+            "区域": "西北区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(进货次数)": 151,
+            "区域": "华东区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(进货次数)": null,
+            "区域": "华东区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(进货次数)": null,
+            "区域": "华东区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(进货次数)": 462,
+            "区域": "华南区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(进货次数)": 55,
+            "区域": "华南区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(进货次数)": 323,
+            "区域": "华南区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(进货次数)": 205,
+            "区域": "null"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(进货次数)": 21,
+            "区域": "null"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(进货次数)": 39,
+            "区域": "null"
+          }
+        ]
+      },
+      {
+        "feature": [
+          {
+            "sum(门店数)": 92,
+            "区域": "西南区",
+            "城市级别": "5线城市"
+          },
+          {
+            "sum(门店数)": 102,
+            "区域": "西南区",
+            "城市级别": "4线城市"
+          },
+          {
+            "sum(门店数)": 6,
+            "区域": "西南区",
+            "城市级别": "2线中等发达城市"
+          },
+          {
+            "sum(门店数)": 15,
+            "区域": "西南区",
+            "城市级别": "3线城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "城市级别": "2线发达城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "城市级别": "2线发展较弱城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "城市级别": "null"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "城市级别": "5线城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "城市级别": "4线城市"
+          },
+          {
+            "sum(门店数)": 13,
+            "区域": "华北区",
+            "城市级别": "2线中等发达城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "城市级别": "3线城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "城市级别": "2线发达城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "城市级别": "2线发展较弱城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "城市级别": "null"
+          },
+          {
+            "sum(门店数)": 49,
+            "区域": "西北区",
+            "城市级别": "5线城市"
+          },
+          {
+            "sum(门店数)": 2,
+            "区域": "西北区",
+            "城市级别": "4线城市"
+          },
+          {
+            "sum(门店数)": 5,
+            "区域": "西北区",
+            "城市级别": "2线中等发达城市"
+          },
+          {
+            "sum(门店数)": 95,
+            "区域": "西北区",
+            "城市级别": "3线城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "城市级别": "2线发达城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "城市级别": "2线发展较弱城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "城市级别": "null"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "城市级别": "5线城市"
+          },
+          {
+            "sum(门店数)": 59,
+            "区域": "华东区",
+            "城市级别": "4线城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "城市级别": "2线中等发达城市"
+          },
+          {
+            "sum(门店数)": 29,
+            "区域": "华东区",
+            "城市级别": "3线城市"
+          },
+          {
+            "sum(门店数)": 4,
+            "区域": "华东区",
+            "城市级别": "2线发达城市"
+          },
+          {
+            "sum(门店数)": 10,
+            "区域": "华东区",
+            "城市级别": "2线发展较弱城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "城市级别": "null"
+          },
+          {
+            "sum(门店数)": 78,
+            "区域": "华南区",
+            "城市级别": "5线城市"
+          },
+          {
+            "sum(门店数)": 297,
+            "区域": "华南区",
+            "城市级别": "4线城市"
+          },
+          {
+            "sum(门店数)": 166,
+            "区域": "华南区",
+            "城市级别": "2线中等发达城市"
+          },
+          {
+            "sum(门店数)": 326,
+            "区域": "华南区",
+            "城市级别": "3线城市"
+          },
+          {
+            "sum(门店数)": 241,
+            "区域": "华南区",
+            "城市级别": "2线发达城市"
+          },
+          {
+            "sum(门店数)": 96,
+            "区域": "华南区",
+            "城市级别": "2线发展较弱城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "城市级别": "null"
+          },
+          {
+            "sum(门店数)": 38,
+            "区域": "null",
+            "城市级别": "5线城市"
+          },
+          {
+            "sum(门店数)": 110,
+            "区域": "null",
+            "城市级别": "4线城市"
+          },
+          {
+            "sum(门店数)": null,
+            "区域": "null",
+            "城市级别": "2线中等发达城市"
+          },
+          {
+            "sum(门店数)": 90,
+            "区域": "null",
+            "城市级别": "3线城市"
+          },
+          {
+            "sum(门店数)": 36,
+            "区域": "null",
+            "城市级别": "2线发达城市"
+          },
+          {
+            "sum(门店数)": 13,
+            "区域": "null",
+            "城市级别": "2线发展较弱城市"
+          },
+          {
+            "sum(门店数)": 6,
+            "区域": "null",
+            "城市级别": "null"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "区域"
+      ],
+      "y_dimensions": [
+        null,
+        null
+      ]
+    }
+  }
+}

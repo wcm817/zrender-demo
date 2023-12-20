@@ -1,0 +1,217 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "区域",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 50)",
+              "val": "华南区"
+            },
+            {
+              "color": "rgba(3, 185, 140, 50)",
+              "val": "null"
+            },
+            {
+              "color": "rgba(250, 204, 20, 50)",
+              "val": "西南区"
+            },
+            {
+              "color": "rgba(245, 40, 45, 50)",
+              "val": "西北区"
+            },
+            {
+              "color": "rgba(133, 67, 224, 50)",
+              "val": "华东区"
+            },
+            {
+              "color": "rgba(63, 174, 204, 50)",
+              "val": "华北区"
+            }
+          ],
+          "name": "区域",
+          "opacity": 50
+        }
+      ],
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(门店数)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "区域"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "门店数"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "门店数"
+      }
+    },
+    "worksheet_id": "6b16aa585b1d11edbc89caaca93f1505",
+    "worksheet_idx": 16,
+    "worksheet_name": "canvas16",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas16",
+    "worksheet_title_css": null,
+    "worksheet_type": "11",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "sum(门店数)": 215,
+        "区域": "西南区"
+      },
+      {
+        "sum(门店数)": 13,
+        "区域": "华北区"
+      },
+      {
+        "sum(门店数)": 151,
+        "区域": "西北区"
+      },
+      {
+        "sum(门店数)": 102,
+        "区域": "华东区"
+      },
+      {
+        "sum(门店数)": 1204,
+        "区域": "华南区"
+      },
+      {
+        "sum(门店数)": 293,
+        "区域": "null"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "区域"
+      ],
+      "labels": [
+        null
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  }
+}

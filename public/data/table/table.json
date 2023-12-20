@@ -1,0 +1,213 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6B6B6B",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [],
+      "fitModel": "standard",
+      "labelsList": [
+        {
+          "type": "linear",
+          "key": "sum(Age)",
+          "title": "sum(Age)",
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "text": {
+            "align": "left",
+            "display": "auto",
+            "check": false,
+            "decoration": "",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "keyId": "0-0}"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "UP"
+      },
+      "tableSetting": {
+        "cell": {
+          "disabled": false,
+          "width": 100
+        },
+        "inner": {
+          "color": "#c2c9d1",
+          "width": 1
+        },
+        "outter": {
+          "color": "#c2c9d1",
+          "width": 1
+        },
+        "padding": {
+          "bottom": 0,
+          "disabled_left_right": false,
+          "disabled_top_bottom": false,
+          "left": 4,
+          "right": 4,
+          "top": 0
+        }
+      },
+      "tableTitleData": [
+        {
+          "key": "sum(Age)",
+          "title": "sum(Age)",
+          "display": "auto",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          }
+        },
+        {
+          "display": "auto",
+          "key": "Sex",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "Sex"
+        }
+      ],
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "Sex",
+          "key": "Sex",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false,
+            "title": "Sex"
+          },
+          "title": "Sex",
+          "type": "ordinal"
+        },
+        {
+          "type": "linear",
+          "key": "sum(Age)",
+          "title": "sum(Age)",
+          "display": "auto",
+          "legendCheck": false,
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "text": {
+            "align": "left",
+            "display": "auto",
+            "check": false,
+            "decoration": "",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "id": "sum(Age)",
+          "hasLegend": false
+        }
+      ]
+    },
+    "features": {
+      "col": [
+        {
+          "name": "Age",
+          "dtype": "AGGR",
+          "legend": "SUM"
+        }
+      ],
+      "ncols": 1000,
+      "row": [
+        {
+          "name": "Sex",
+          "dtype": "CAT"
+        }
+      ]
+    },
+    "worksheet_id": "c1d9252c2d0f11eeb245d60082ce67a6",
+    "worksheet_idx": 3,
+    "worksheet_name": "canvas3",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas3",
+    "worksheet_title_css": null,
+    "worksheet_type": "01",
+    "scopeChange": ""
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "Sex": "male",
+        "sum(Age)": 13919.17
+      },
+      {
+        "Sex": "female",
+        "sum(Age)": 7286
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        null
+      ],
+      "y_dimensions": [
+        "Sex"
+      ]
+    }
+  }
+}

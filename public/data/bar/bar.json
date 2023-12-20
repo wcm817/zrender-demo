@@ -1,0 +1,391 @@
+{
+  "fitModel": "standard",
+  "id": "dc_0d3f6056721e11ed9a6fcae3c47e0685",
+  "isCombined": false,
+  "size": 50,
+  "lineSize": 50,
+  "lineStyle": "circle",
+  "xAxis": [
+    {
+      "position": "bottom",
+      "key": "省",
+      "type": [
+        "bar"
+      ],
+      "line": {
+        "show": true,
+        "style": {
+          "lineWidth": 1,
+          "fontColor": "#EAECED",
+          "opacity": 1,
+          "lineDash": [
+            0,
+            0
+          ]
+        }
+      },
+      "label": {
+        "style": {
+          "fontColor": "#6B6B6B",
+          "fontSize": 12,
+          "fontWeight": "normal",
+          "opacity": 1,
+          "rotate": 0,
+          "hasUnit": "auto"
+        }
+      },
+      "title": {
+        "value": "省",
+        "show": true,
+        "style": {
+          "fontColor": "#FACC14",
+          "fontSize": 12,
+          "fontStyle": "normal"
+        }
+      },
+      "grid": {
+        "line": {
+          "show": false,
+          "style": {
+            "fontColor": "#c2c9d1",
+            "opacity": 0,
+            "lineDash": [
+              0,
+              0
+            ],
+            "lineWidth": 1
+          }
+        }
+      },
+      "keyId": "0-0",
+      "axisType": "x"
+    }
+  ],
+  "yAxis": [
+    [
+      {
+        "position": "left",
+        "key": [
+          "sum(门店数)"
+        ],
+        "type": [
+          "bar"
+        ],
+        "line": {
+          "show": true,
+          "style": {
+            "lineWidth": 1,
+            "fontColor": "#EAECED",
+            "opacity": 1,
+            "lineDash": [
+              0,
+              0
+            ]
+          }
+        },
+        "label": {
+          "style": {
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontWeight": "normal",
+            "opacity": 1,
+            "rotate": 0,
+            "hasUnit": "auto"
+          }
+        },
+        "title": {
+          "value": "sum(门店数)",
+          "show": true,
+          "style": {
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal"
+          }
+        },
+        "grid": {
+          "line": {
+            "show": false,
+            "style": {
+              "fontColor": "#c2c9d1",
+              "opacity": 0,
+              "lineDash": [
+                0,
+                0
+              ],
+              "lineWidth": 1
+            }
+          }
+        },
+        "keyId": [
+          "0-0"
+        ],
+        "axisType": "y",
+        "data": [
+          [
+            {
+              "sum(门店数)": 36,
+              "var(会员数)": 29293028.699999996,
+              "省": "云南省"
+            },
+            {
+              "sum(门店数)": 126,
+              "var(会员数)": 162066203.71666667,
+              "省": "四川省"
+            },
+            {
+              "sum(门店数)": 13,
+              "var(会员数)": null,
+              "省": "吉林省"
+            },
+            {
+              "sum(门店数)": 148,
+              "var(会员数)": 29350545684.5,
+              "省": "新疆"
+            },
+            {
+              "sum(门店数)": 21,
+              "var(会员数)": 256328,
+              "省": "河南省"
+            },
+            {
+              "sum(门店数)": 11,
+              "var(会员数)": 17322498,
+              "省": "内蒙古"
+            },
+            {
+              "sum(门店数)": 449,
+              "var(会员数)": 2643084327.2564096,
+              "省": "湖南省"
+            },
+            {
+              "sum(门店数)": 77,
+              "var(会员数)": 145115299.28571427,
+              "省": "湖北省"
+            },
+            {
+              "sum(门店数)": 4,
+              "var(会员数)": null,
+              "省": "辽宁省"
+            },
+            {
+              "sum(门店数)": 32,
+              "var(会员数)": 1025392.3333333338,
+              "省": "贵州省"
+            },
+            {
+              "sum(门店数)": 129,
+              "var(会员数)": 617948389.4761904,
+              "省": "安徽省"
+            },
+            {
+              "sum(门店数)": 157,
+              "var(会员数)": 32307683352.966667,
+              "省": "福建省"
+            },
+            {
+              "sum(门店数)": 63,
+              "var(会员数)": 74884442.26785715,
+              "省": "江西省"
+            },
+            {
+              "sum(门店数)": 486,
+              "var(会员数)": 8802004327.361113,
+              "省": "浙江省"
+            },
+            {
+              "sum(门店数)": 13,
+              "var(会员数)": null,
+              "省": "青海省"
+            },
+            {
+              "sum(门店数)": 12,
+              "var(会员数)": 244111085.58333337,
+              "省": "陕西省"
+            },
+            {
+              "sum(门店数)": 10,
+              "var(会员数)": null,
+              "省": "山东省"
+            },
+            {
+              "sum(门店数)": 3,
+              "var(会员数)": null,
+              "省": "宁夏"
+            },
+            {
+              "sum(门店数)": 20,
+              "var(会员数)": null,
+              "省": "广西省"
+            },
+            {
+              "sum(门店数)": 51,
+              "var(会员数)": null,
+              "省": "西藏"
+            },
+            {
+              "sum(门店数)": 47,
+              "var(会员数)": null,
+              "省": "江苏省"
+            },
+            {
+              "sum(门店数)": 44,
+              "var(会员数)": null,
+              "省": "广东省"
+            },
+            {
+              "sum(门店数)": 26,
+              "var(会员数)": null,
+              "省": "重庆市"
+            }
+          ]
+        ]
+      }
+    ]
+  ],
+  "xAxisPart": [],
+  "yAxisPart": [],
+  "labelsList": [],
+  "tooltipList": [
+    {
+      "type": "ordinal",
+      "key": "省",
+      "title": "省",
+      "display": "auto",
+      "legendCheck": false,
+      "format": {},
+      "text": {
+        "align": "left",
+        "display": "auto",
+        "check": false,
+        "decoration": "",
+        "fontColor": "#6B6B6B",
+        "fontSize": 12,
+        "fontStyle": "normal",
+        "letterSpacing": "0",
+        "lineHeight": "24",
+        "setFlag": false
+      },
+      "id": "省",
+      "hasLegend": false
+    },
+    {
+      "type": "linear",
+      "key": "sum(门店数)",
+      "title": "sum(门店数)",
+      "display": "auto",
+      "legendCheck": false,
+      "format": {
+        "check": false,
+        "decimal": 2,
+        "isPercent": false,
+        "negative": "-1234",
+        "prefix": "",
+        "selectFormat": -1,
+        "setFlag": false,
+        "suffix": "",
+        "unit": "",
+        "useThousandMark": true,
+        "zone": "¥ 人民币"
+      },
+      "text": {
+        "align": "left",
+        "display": "auto",
+        "check": false,
+        "decoration": "",
+        "fontColor": "#6B6B6B",
+        "fontSize": 12,
+        "fontStyle": "normal",
+        "letterSpacing": "0",
+        "lineHeight": "24",
+        "setFlag": false
+      },
+      "hasLegend": true,
+      "id": "sum(门店数)"
+    },
+    {
+      "type": "linear",
+      "key": "var(会员数)",
+      "title": "var(会员数)",
+      "display": "auto",
+      "legendCheck": false,
+      "format": {
+        "check": false,
+        "decimal": 2,
+        "isPercent": false,
+        "negative": "-1234",
+        "prefix": "",
+        "selectFormat": -1,
+        "setFlag": false,
+        "suffix": "",
+        "unit": "",
+        "useThousandMark": true,
+        "zone": "¥ 人民币"
+      },
+      "text": {
+        "align": "left",
+        "display": "auto",
+        "check": false,
+        "decoration": "",
+        "fontColor": "#6B6B6B",
+        "fontSize": 12,
+        "fontStyle": "normal",
+        "letterSpacing": "0",
+        "lineHeight": "24",
+        "setFlag": false
+      },
+      "id": "var(会员数)",
+      "hasLegend": false
+    }
+  ],
+  "scopeList": [
+    {
+      "key": [
+        "sum(门店数)"
+      ],
+      "keyId": [
+        "0-0"
+      ],
+      "select": 0,
+      "align": true,
+      "zoom": 1,
+      "max": 550,
+      "min": 0,
+      "num": 12,
+      "range": [
+        0,
+        550
+      ],
+      "counts": 12
+    }
+  ],
+  "colorList": [
+    {
+      "feature": "var(会员数)",
+      "type": "linear",
+      "key": "sum(门店数)",
+      "originalKey": "sum(门店数)",
+      "color": "#4284f5",
+      "list": [
+        {
+          "color": "#BFD7FF",
+          "value": 0,
+          "check": false,
+          "originValue": 0,
+          "formatValue": "0.00"
+        },
+        {
+          "color": "#2577F2",
+          "value": 32307683352.966667,
+          "check": false,
+          "originValue": 32307683352.966667,
+          "formatValue": "32.3G"
+        }
+      ],
+      "canvasType": "bar",
+      "fillType": "fill",
+      "opacity": 100,
+      "keyId": "0-0",
+      "keyName": "门店数"
+    }
+  ]
+}

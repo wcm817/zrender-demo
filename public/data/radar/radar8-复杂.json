@@ -1,0 +1,1320 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axisColor": "#FA9496",
+      "axisWidth": 1,
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "区域",
+          "fillType": "fill",
+          "key": "sum(客户编号)",
+          "keyId": "0-0",
+          "keyName": "客户编号",
+          "list": {
+            "null": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "华东区": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "华北区": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "华南区": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "西北区": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "西南区": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            }
+          },
+          "opacity": 100,
+          "originalKey": "sum(客户编号)",
+          "type": "ordinal"
+        }
+      ],
+      "fitModel": "full",
+      "gapColor": "#FACF94",
+      "gapDash": "line",
+      "gapWidth": 1,
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "isArea": true,
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(客户编号)",
+          "keyId": "0-0",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear",
+          "value": 26
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "currency",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "M 百万",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(客户编号)",
+          "keyId": "0-0",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(销售额)",
+          "type": "linear",
+          "value": 3339529
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "lineSize": 66,
+      "lineStyle": "triangle180",
+      "scopeList": [],
+      "tickNum": 5,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "省",
+          "key": "省",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "省",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(客户编号)",
+          "key": "sum(客户编号)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(客户编号)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(销售额)",
+          "key": "sum(销售额)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "ncols": 1000,
+      "x": [
+        {
+          "dtype": "CAT",
+          "name": "省"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "color": {
+              "dtype": "CAT",
+              "name": "区域"
+            },
+            "dtype": "AGGR",
+            "labels": [
+              {
+                "dtype": "AGGR",
+                "legend": "SUM",
+                "name": "门店数"
+              },
+              {
+                "dtype": "AGGR",
+                "legend": "SUM",
+                "name": "销售额"
+              }
+            ],
+            "legend": "SUM",
+            "name": "客户编号"
+          }
+        }
+      ]
+    },
+    "worksheet_id": "4fe5f490194b11eeb91cfe83acd330c3",
+    "worksheet_idx": 224,
+    "worksheet_name": "canvas224",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas224",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "sum(客户编号)": 804,
+            "sum(销售额)": 17125341.7,
+            "sum(门店数)": 32,
+            "区域": "西南区",
+            "省": "云南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "云南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "云南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "云南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "云南省"
+          },
+          {
+            "sum(客户编号)": 861,
+            "sum(销售额)": 3395338,
+            "sum(门店数)": 4,
+            "区域": "null",
+            "省": "云南省"
+          },
+          {
+            "sum(客户编号)": 6540,
+            "sum(销售额)": 67417163.30000001,
+            "sum(门店数)": 100,
+            "区域": "西南区",
+            "省": "四川省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "四川省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "四川省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "四川省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "四川省"
+          },
+          {
+            "sum(客户编号)": 6207,
+            "sum(销售额)": 12422080.4,
+            "sum(门店数)": 26,
+            "区域": "null",
+            "省": "四川省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "吉林省"
+          },
+          {
+            "sum(客户编号)": 29,
+            "sum(销售额)": 6337477.5,
+            "sum(门店数)": 13,
+            "区域": "华北区",
+            "省": "吉林省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "吉林省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "吉林省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "吉林省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "吉林省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "新疆"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "新疆"
+          },
+          {
+            "sum(客户编号)": 2818,
+            "sum(销售额)": 153247522.9,
+            "sum(门店数)": 121,
+            "区域": "西北区",
+            "省": "新疆"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "新疆"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "新疆"
+          },
+          {
+            "sum(客户编号)": 3376,
+            "sum(销售额)": 30506977.5,
+            "sum(门店数)": 27,
+            "区域": "null",
+            "省": "新疆"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "河南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "河南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "河南省"
+          },
+          {
+            "sum(客户编号)": 826,
+            "sum(销售额)": 28023155.8,
+            "sum(门店数)": 21,
+            "区域": "华东区",
+            "省": "河南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "河南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "河南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "内蒙古"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "内蒙古"
+          },
+          {
+            "sum(客户编号)": 59,
+            "sum(销售额)": 3666400.5,
+            "sum(门店数)": 7,
+            "区域": "西北区",
+            "省": "内蒙古"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "内蒙古"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "内蒙古"
+          },
+          {
+            "sum(客户编号)": 2233,
+            "sum(销售额)": 1738647.6,
+            "sum(门店数)": 4,
+            "区域": "null",
+            "省": "内蒙古"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "湖南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "湖南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "湖南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "湖南省"
+          },
+          {
+            "sum(客户编号)": 6957,
+            "sum(销售额)": 297155350.8,
+            "sum(门店数)": 449,
+            "区域": "华南区",
+            "省": "湖南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "湖南省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "湖北省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "湖北省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "湖北省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "湖北省"
+          },
+          {
+            "sum(客户编号)": 1267,
+            "sum(销售额)": 32069673.4,
+            "sum(门店数)": 52,
+            "区域": "华南区",
+            "省": "湖北省"
+          },
+          {
+            "sum(客户编号)": 6523,
+            "sum(销售额)": 25814348,
+            "sum(门店数)": 25,
+            "区域": "null",
+            "省": "湖北省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "辽宁省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "辽宁省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "辽宁省"
+          },
+          {
+            "sum(客户编号)": 135,
+            "sum(销售额)": 3822113.5,
+            "sum(门店数)": 4,
+            "区域": "华东区",
+            "省": "辽宁省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "辽宁省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "辽宁省"
+          },
+          {
+            "sum(客户编号)": 2138,
+            "sum(销售额)": 16692337.5,
+            "sum(门店数)": 32,
+            "区域": "西南区",
+            "省": "贵州省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "贵州省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "贵州省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "贵州省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "贵州省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "贵州省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "安徽省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "安徽省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "安徽省"
+          },
+          {
+            "sum(客户编号)": 4554,
+            "sum(销售额)": 41376245.3,
+            "sum(门店数)": 67,
+            "区域": "华东区",
+            "省": "安徽省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "安徽省"
+          },
+          {
+            "sum(客户编号)": 180,
+            "sum(销售额)": 58514876,
+            "sum(门店数)": 62,
+            "区域": "null",
+            "省": "安徽省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "福建省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "福建省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "福建省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "福建省"
+          },
+          {
+            "sum(客户编号)": 5016,
+            "sum(销售额)": 153553861.7,
+            "sum(门店数)": 157,
+            "区域": "华南区",
+            "省": "福建省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "福建省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "江西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "江西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "江西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "江西省"
+          },
+          {
+            "sum(客户编号)": 8566,
+            "sum(销售额)": 63858139.7,
+            "sum(门店数)": 63,
+            "区域": "华南区",
+            "省": "江西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "江西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "浙江省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "浙江省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "浙江省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "浙江省"
+          },
+          {
+            "sum(客户编号)": 8594,
+            "sum(销售额)": 372951757.5,
+            "sum(门店数)": 463,
+            "区域": "华南区",
+            "省": "浙江省"
+          },
+          {
+            "sum(客户编号)": 4693,
+            "sum(销售额)": 12907665,
+            "sum(门店数)": 23,
+            "区域": "null",
+            "省": "浙江省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "青海省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "青海省"
+          },
+          {
+            "sum(客户编号)": 527,
+            "sum(销售额)": 15635562,
+            "sum(门店数)": 13,
+            "区域": "西北区",
+            "省": "青海省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "青海省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "青海省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "青海省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "陕西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "陕西省"
+          },
+          {
+            "sum(客户编号)": 2541,
+            "sum(销售额)": 18032206.8,
+            "sum(门店数)": 7,
+            "区域": "西北区",
+            "省": "陕西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "陕西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "陕西省"
+          },
+          {
+            "sum(客户编号)": 3369,
+            "sum(销售额)": 7291480.2,
+            "sum(门店数)": 5,
+            "区域": "null",
+            "省": "陕西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "山东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "山东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "山东省"
+          },
+          {
+            "sum(客户编号)": 706,
+            "sum(销售额)": 21084826,
+            "sum(门店数)": 10,
+            "区域": "华东区",
+            "省": "山东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "山东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "山东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "宁夏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "宁夏"
+          },
+          {
+            "sum(客户编号)": 806,
+            "sum(销售额)": 2891319.8,
+            "sum(门店数)": 3,
+            "区域": "西北区",
+            "省": "宁夏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "宁夏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "宁夏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "宁夏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "广西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "广西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "广西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "广西省"
+          },
+          {
+            "sum(客户编号)": 1789,
+            "sum(销售额)": 8195536,
+            "sum(门店数)": 20,
+            "区域": "华南区",
+            "省": "广西省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "广西省"
+          },
+          {
+            "sum(客户编号)": 1901,
+            "sum(销售额)": 92917890,
+            "sum(门店数)": 51,
+            "区域": "西南区",
+            "省": "西藏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "西藏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "西藏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "西藏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "西藏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "null",
+            "省": "西藏"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "江苏省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "江苏省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "江苏省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "江苏省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "江苏省"
+          },
+          {
+            "sum(客户编号)": 2285,
+            "sum(销售额)": 36072536,
+            "sum(门店数)": 47,
+            "区域": "null",
+            "省": "江苏省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "广东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "广东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "广东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "广东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "广东省"
+          },
+          {
+            "sum(客户编号)": 2335,
+            "sum(销售额)": 2822174.8,
+            "sum(门店数)": 44,
+            "区域": "null",
+            "省": "广东省"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西南区",
+            "省": "重庆市"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华北区",
+            "省": "重庆市"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "西北区",
+            "省": "重庆市"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华东区",
+            "省": "重庆市"
+          },
+          {
+            "sum(客户编号)": null,
+            "sum(销售额)": null,
+            "sum(门店数)": null,
+            "区域": "华南区",
+            "省": "重庆市"
+          },
+          {
+            "sum(客户编号)": 2396,
+            "sum(销售额)": 3339529,
+            "sum(门店数)": 26,
+            "区域": "null",
+            "省": "重庆市"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "省"
+      ],
+      "y_dimensions": [
+        null
+      ]
+    }
+  }
+}

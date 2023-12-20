@@ -1,0 +1,492 @@
+{
+  "data": {
+    "features_data": [
+      {
+        "F_bin": "(0, 5]",
+        "sum(R)": 16996,
+        "sum(R) percent": 0.5320394427922993
+      },
+      {
+        "F_bin": "(5, 10]",
+        "sum(R)": 6422,
+        "sum(R) percent": 0.20103302551259977
+      },
+      {
+        "F_bin": "(10, 15]",
+        "sum(R)": 3073,
+        "sum(R) percent": 0.09619658788542808
+      },
+      {
+        "F_bin": "(15, 20]",
+        "sum(R)": 1576,
+        "sum(R) percent": 0.049334794177492564
+      },
+      {
+        "F_bin": "(20, 25]",
+        "sum(R)": 1093,
+        "sum(R) percent": 0.03421505712944123
+      },
+      {
+        "F_bin": "(25, 30]",
+        "sum(R)": 718,
+        "sum(R) percent": 0.022476130849898263
+      },
+      {
+        "F_bin": "(30, 35]",
+        "sum(R)": 577,
+        "sum(R) percent": 0.01806229456879011
+      },
+      {
+        "F_bin": "(35, 40]",
+        "sum(R)": 424,
+        "sum(R) percent": 0.013272812646736578
+      },
+      {
+        "F_bin": "(40, 45]",
+        "sum(R)": 311,
+        "sum(R) percent": 0.009735482861167632
+      },
+      {
+        "F_bin": "(50, 55]",
+        "sum(R)": 275,
+        "sum(R) percent": 0.008608545938331507
+      },
+      {
+        "F_bin": "(45, 50]",
+        "sum(R)": 115,
+        "sum(R) percent": 0.0035999373923931758
+      },
+      {
+        "F_bin": "(55, 60]",
+        "sum(R)": 100,
+        "sum(R) percent": 0.0031303803412114574
+      },
+      {
+        "F_bin": "(60, 65]",
+        "sum(R)": 75,
+        "sum(R) percent": 0.0023477852559085927
+      },
+      {
+        "F_bin": "(65, 70]",
+        "sum(R)": 60,
+        "sum(R) percent": 0.0018782282047268744
+      },
+      {
+        "F_bin": "(105, 110]",
+        "sum(R)": 23,
+        "sum(R) percent": 0.0007199874784786351
+      },
+      {
+        "F_bin": "(75, 80]",
+        "sum(R)": 22,
+        "sum(R) percent": 0.0006886836750665206
+      },
+      {
+        "F_bin": "(80, 85]",
+        "sum(R)": 19,
+        "sum(R) percent": 0.0005947722648301769
+      },
+      {
+        "F_bin": "(70, 75]",
+        "sum(R)": 19,
+        "sum(R) percent": 0.0005947722648301769
+      },
+      {
+        "F_bin": "(100, 105]",
+        "sum(R)": 15,
+        "sum(R) percent": 0.0004695570511817186
+      },
+      {
+        "F_bin": "(85, 90]",
+        "sum(R)": 12,
+        "sum(R) percent": 0.00037564564094537487
+      },
+      {
+        "F_bin": "(90, 95]",
+        "sum(R)": 8,
+        "sum(R) percent": 0.0002504304272969166
+      },
+      {
+        "F_bin": "(95, 100]",
+        "sum(R)": 7,
+        "sum(R) percent": 0.000219126623884802
+      },
+      {
+        "F_bin": "(115, 120]",
+        "sum(R)": 5,
+        "sum(R) percent": 0.00015651901706057285
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "F_bin"
+      ],
+      "labels": [
+        null,
+        "F_bin"
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  },
+  "config": {
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "checked": true,
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "F_bin",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "(0, 5]",
+              "val": "(0, 5]"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "(5, 10]",
+              "val": "(5, 10]"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "(10, 15]",
+              "val": "(10, 15]"
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "(15, 20]",
+              "val": "(15, 20]"
+            },
+            {
+              "color": "rgba(133, 67, 224, 1)",
+              "originalVal": "(20, 25]",
+              "val": "(20, 25]"
+            },
+            {
+              "color": "rgba(63, 174, 204, 1)",
+              "originalVal": "(25, 30]",
+              "val": "(25, 30]"
+            },
+            {
+              "color": "rgba(49, 16, 208, 1)",
+              "originalVal": "(30, 35]",
+              "val": "(30, 35]"
+            },
+            {
+              "color": "rgba(232, 143, 0, 1)",
+              "originalVal": "(35, 40]",
+              "val": "(35, 40]"
+            },
+            {
+              "color": "rgba(222, 35, 147, 1)",
+              "originalVal": "(40, 45]",
+              "val": "(40, 45]"
+            },
+            {
+              "color": "rgba(145, 186, 56, 1)",
+              "originalVal": "(50, 55]",
+              "val": "(50, 55]"
+            },
+            {
+              "color": "rgba(153, 180, 191, 1)",
+              "originalVal": "(45, 50]",
+              "val": "(45, 50]"
+            },
+            {
+              "color": "rgba(33, 106, 88, 1)",
+              "originalVal": "(55, 60]",
+              "val": "(55, 60]"
+            },
+            {
+              "color": "rgba(171, 148, 56, 1)",
+              "originalVal": "(60, 65]",
+              "val": "(60, 65]"
+            },
+            {
+              "color": "rgba(244, 153, 155, 1)",
+              "originalVal": "(65, 70]",
+              "val": "(65, 70]"
+            },
+            {
+              "color": "rgba(201, 191, 225, 1)",
+              "originalVal": "(105, 110]",
+              "val": "(105, 110]"
+            },
+            {
+              "color": "rgba(5, 81, 102, 1)",
+              "originalVal": "(75, 80]",
+              "val": "(75, 80]"
+            },
+            {
+              "color": "rgba(31, 19, 90, 1)",
+              "originalVal": "(80, 85]",
+              "val": "(80, 85]"
+            },
+            {
+              "color": "rgba(67, 20, 10, 1)",
+              "originalVal": "(70, 75]",
+              "val": "(70, 75]"
+            },
+            {
+              "color": "rgba(150, 0, 90, 1)",
+              "originalVal": "(100, 105]",
+              "val": "(100, 105]"
+            },
+            {
+              "color": "rgba(141, 141, 141, 1)",
+              "originalVal": "(85, 90]",
+              "val": "(85, 90]"
+            },
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "(90, 95]",
+              "val": "(90, 95]"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "(95, 100]",
+              "val": "(95, 100]"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "(115, 120]",
+              "val": "(115, 120]"
+            }
+          ],
+          "name": "F_bin",
+          "opacity": 100
+        }
+      ],
+      "innerRadius": 0,
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(R)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(R)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": false,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(R) percent",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(R) percent",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "key": "F_bin",
+          "keyId": "1-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "F_bin",
+          "type": "ordinal"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "originalChecked": true,
+      "size": 44,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "F_bin",
+          "key": "F_bin",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "F_bin",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": true,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(R)",
+          "key": "sum(R)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(R)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": true,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(R) percent",
+          "key": "sum(R) percent",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(R) percent",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "F_bin"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "R"
+        },
+        {
+          "dtype": "CAT",
+          "name": "F_bin"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "R"
+      }
+    },
+    "worksheet_id": "eefb2aa0ce1411ed8747a6036dcb8c8e",
+    "worksheet_idx": 2,
+    "worksheet_name": "canvas2",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas2",
+    "worksheet_title_css": null,
+    "worksheet_type": "06",
+    "dpr": 2
+  }
+}

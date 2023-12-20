@@ -1,0 +1,278 @@
+{
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "city": "广州",
+        "sum(age)": 221,
+        "sum(age) percent": 0.5695876288659794
+      },
+      {
+        "city": "深圳",
+        "sum(age)": 109,
+        "sum(age) percent": 0.2809278350515464
+      },
+      {
+        "city": "上海",
+        "sum(age)": 33,
+        "sum(age) percent": 0.08505154639175258
+      },
+      {
+        "city": "北京",
+        "sum(age)": 25,
+        "sum(age) percent": 0.06443298969072164
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "city"
+      ],
+      "labels": [
+        null
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  },
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "checked": true,
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "city",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "广州",
+              "val": "广州"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "深圳",
+              "val": "深圳"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "上海",
+              "val": "上海"
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "北京",
+              "val": "北京"
+            }
+          ],
+          "name": "city",
+          "opacity": 100
+        }
+      ],
+      "innerRadius": 0,
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "currency",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "K 千",
+            "useThousandMark": true,
+            "zone": "￥ 日元"
+          },
+          "key": "sum(age)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(age)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": false,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(age) percent",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(age) percent",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "originalChecked": true,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "city",
+          "key": "city",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "city",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": true,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(age)",
+          "key": "sum(age)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(age)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": true,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(age) percent",
+          "key": "sum(age) percent",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(age) percent",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "city"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "age"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "age"
+      }
+    },
+    "worksheet_id": "64d54d08f91411ed91e1129208a62679",
+    "worksheet_idx": 2,
+    "worksheet_name": "canvas2",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas2",
+    "worksheet_title_css": null,
+    "worksheet_type": "06",
+    "dpr": 2
+  }
+}

@@ -1,0 +1,358 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "区域",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 100)",
+              "val": "华南区"
+            },
+            {
+              "color": "rgba(3, 185, 140, 100)",
+              "val": "华南区"
+            },
+            {
+              "color": "rgba(250, 204, 20, 100)",
+              "val": "华南区"
+            },
+            {
+              "color": "rgba(245, 40, 45, 100)",
+              "val": "西南区"
+            },
+            {
+              "color": "rgba(133, 67, 224, 100)",
+              "val": "西南区"
+            },
+            {
+              "color": "rgba(63, 174, 204, 100)",
+              "val": "null"
+            },
+            {
+              "color": "rgba(49, 16, 208, 100)",
+              "val": "null"
+            },
+            {
+              "color": "rgba(232, 143, 0, 100)",
+              "val": "null"
+            },
+            {
+              "color": "rgba(222, 35, 147, 100)",
+              "val": "华东区"
+            },
+            {
+              "color": "rgba(145, 186, 56, 100)",
+              "val": "西北区"
+            },
+            {
+              "color": "rgba(153, 180, 191, 100)",
+              "val": "西北区"
+            },
+            {
+              "color": "rgba(33, 106, 88, 100)",
+              "val": "西北区"
+            },
+            {
+              "color": "rgba(171, 148, 56, 100)",
+              "val": "华北区"
+            }
+          ],
+          "name": "区域",
+          "opacity": 100
+        }
+      ],
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(门店数)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "key": "区域",
+          "keyId": "1-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "key": "RFM类别",
+          "keyId": "2-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "区域"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "门店数"
+        },
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        },
+        {
+          "dtype": "CAT",
+          "name": "RFM类别"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "门店数"
+      }
+    },
+    "worksheet_id": "6b16aa585b1d11edbc89caaca93f1505",
+    "worksheet_idx": 16,
+    "worksheet_name": "canvas16",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas16",
+    "worksheet_title_css": null,
+    "worksheet_type": "11",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "RFM类别": "一般用户",
+        "sum(门店数)": 164,
+        "区域": "西南区"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(门店数)": 51,
+        "区域": "西南区"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(门店数)": 13,
+        "区域": "华北区"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(门店数)": 50,
+        "区域": "西北区"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(门店数)": 13,
+        "区域": "西北区"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(门店数)": 88,
+        "区域": "西北区"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(门店数)": 102,
+        "区域": "华东区"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(门店数)": 280,
+        "区域": "华南区"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(门店数)": 682,
+        "区域": "华南区"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(门店数)": 242,
+        "区域": "华南区"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(门店数)": 159,
+        "区域": "null"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(门店数)": 72,
+        "区域": "null"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(门店数)": 62,
+        "区域": "null"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "区域"
+      ],
+      "labels": [
+        null,
+        "区域",
+        "RFM类别"
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  }
+}

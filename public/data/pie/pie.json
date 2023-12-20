@@ -1,0 +1,252 @@
+{
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "Sex": "male",
+        "sum(Age)": 13919.17,
+        "sum(Age) percent": 0.6564045466270726
+      },
+      {
+        "Sex": "female",
+        "sum(Age)": 7286,
+        "sum(Age) percent": 0.34359545337292746
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "Sex"
+      ],
+      "labels": [
+        null
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    },
+    "b849e6d2458711eea61ede31f2f2469a": {
+      "dashboardId": "f022753c4b9611ee9fa40ad0bfa40e56"
+    }
+  },
+  "config": {
+    "code": 0,
+    "css": {
+      "checked": true,
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "Sex2",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "male",
+              "val": "male"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "female",
+              "val": "female"
+            }
+          ],
+          "name": "Sex",
+          "opacity": 100
+        }
+      ],
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(Age)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Age)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": false,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(Age) percent",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Age) percent",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "originalChecked": true,
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "Sex",
+          "key": "Sex",
+          "legendCheck": true,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "Sex2",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": true,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(Age)",
+          "key": "sum(Age)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(Age)11",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": true,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(Age) percent",
+          "key": "sum(Age) percent",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(Age) percent",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "Sex"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "feature_name": "Age",
+          "legend": "SUM",
+          "name": "Age"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "Age"
+      }
+    },
+    "worksheet_id": "b849e6d2458711eea61ede31f2f2469a",
+    "worksheet_idx": 12,
+    "worksheet_name": "canvas12",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas12",
+    "worksheet_title_css": null,
+    "worksheet_type": "06",
+    "dpr": 2
+  }
+}

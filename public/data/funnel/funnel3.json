@@ -1,0 +1,1019 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6B6B6B",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "type": "CAT",
+          "title": "Sex",
+          "opacity": 100,
+          "list": {
+            "male": {
+              "color": "rgba(66, 132, 245, 1)"
+            },
+            "female": {
+              "color": "rgba(3, 185, 140, 1)"
+            }
+          },
+          "listProcessed": [
+            {
+              "label": "male",
+              "data": {
+                "color": "rgba(66, 132, 245, 1)"
+              }
+            },
+            {
+              "label": "female",
+              "data": {
+                "color": "rgba(3, 185, 140, 1)"
+              }
+            }
+          ]
+        }
+      ],
+      "labelsList": [],
+      "legendCss": {
+        "isShow": true,
+        "position": "UP"
+      },
+      "size": 69,
+      "sizeKey": "sum(Survived)",
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "type": "ordinal",
+          "key": "Sex",
+          "title": "Sex",
+          "display": "auto",
+          "legendCheck": false,
+          "format": {},
+          "text": {
+            "align": "left",
+            "display": "auto",
+            "check": false,
+            "decoration": "",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "id": "Sex",
+          "hasLegend": true
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(Survived)",
+          "key": "sum(Survived)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Survived)",
+          "type": "linear"
+        }
+      ]
+    },
+    "features": {
+      "color": {
+        "name": "Sex",
+        "dtype": "CAT"
+      },
+      "labels": [
+        {
+          "name": "Cabin",
+          "dtype": "CAT",
+          "feature_name": "Cabin"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "Survived"
+      }
+    },
+    "worksheet_id": "75ecd77a2d1011eeb245d60082ce67a6",
+    "worksheet_idx": 7,
+    "worksheet_name": "canvas7",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas7",
+    "worksheet_title_css": null,
+    "worksheet_type": "11",
+    "scopeChange": ""
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "Cabin": "null",
+        "Sex": "male",
+        "sum(Survived)": 64
+      },
+      {
+        "Cabin": "E46",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "D56",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A6",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C23 C25 C27",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B30",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C52",
+        "Sex": "male",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C83",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "F G73",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E31",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A5",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "D10 D12",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D26",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C110",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B58 B60",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C123",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B86",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "F2",
+        "Sex": "male",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "B19",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A7",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "F4",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A32",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A31",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C93",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C78",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "D35",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C87",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E67",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B94",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C118",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A19",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "D",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C106",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C22 C26",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C124",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C91",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C2",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "T",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C128",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E50",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C82",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B96 B98",
+        "Sex": "male",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "E10",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E44",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A34",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C104",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C111",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C92",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E38",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E12",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E63",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A14",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B49",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B37",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C30",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C65",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E25",
+        "Sex": "male",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "D46",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C95",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B38",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C86",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C70",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A10",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B41",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A20",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D19",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D50",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A23",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B50",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D33",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A26",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D48",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E58",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B71",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B51 B53 B55",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D49",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B20",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C68",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "F G63",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E24",
+        "Sex": "male",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C126",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E8",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B101",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D45",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C46",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B22",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "D30",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "E121",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "F38",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "D6",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B82 B84",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "A36",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B102",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C47",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E17",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A24",
+        "Sex": "male",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C148",
+        "Sex": "male",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "null",
+        "Sex": "female",
+        "sum(Survived)": 142
+      },
+      {
+        "Cabin": "C23 C25 C27",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C83",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B58 B60",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C123",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "F4",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C93",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C78",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D35",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E67",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C22 C26",
+        "Sex": "female",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "C2",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B96 B98",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "E44",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C92",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B49",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C65",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D33",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B20",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C68",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C126",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E8",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B22",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E121",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C85",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "G6",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C103",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B78",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B28",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "F33",
+        "Sex": "female",
+        "sum(Survived)": 3
+      },
+      {
+        "Cabin": "E101",
+        "Sex": "female",
+        "sum(Survived)": 3
+      },
+      {
+        "Cabin": "F E69",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D47",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E33",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C49",
+        "Sex": "female",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B4",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B80",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D36",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "D15",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B77",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C125",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C99",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D7",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E36",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C54",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B57 B59 B63 B66",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C7",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E34",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C32",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B18",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "E40",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D37",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B35",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "D21",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D20",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "B79",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B73",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B39",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "A16",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C101",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E68",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D9",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B5",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "C62 C64",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C90",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C45",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D11",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E77",
+        "Sex": "female",
+        "sum(Survived)": 0
+      },
+      {
+        "Cabin": "B3",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D17",
+        "Sex": "female",
+        "sum(Survived)": 2
+      },
+      {
+        "Cabin": "B69",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "E49",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "D28",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "C50",
+        "Sex": "female",
+        "sum(Survived)": 1
+      },
+      {
+        "Cabin": "B42",
+        "Sex": "female",
+        "sum(Survived)": 1
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "Sex"
+      ],
+      "labels": [
+        "Cabin"
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  }
+}

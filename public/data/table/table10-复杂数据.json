@@ -1,0 +1,915 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "aggr": "sum(门店数)",
+          "colored_type": "linear",
+          "id": "#dc_1c4e389c664811edbc89caaca93f1505",
+          "key": "sum(门店数)",
+          "list": [
+            {
+              "color": "rgb(191, 215, 255)",
+              "index": 0,
+              "originValue": 5,
+              "rangeType": "min",
+              "type": "linear",
+              "unique": "5.00",
+              "val": "5.00",
+              "value": 5
+            },
+            {
+              "color": "rgb(37, 119, 242)",
+              "index": 1,
+              "originValue": 339,
+              "rangeType": "max",
+              "type": "linear",
+              "unique": "339",
+              "val": "339",
+              "value": 339
+            }
+          ],
+          "name": "sum(门店数)",
+          "opacity": 100,
+          "showRange": true,
+          "type": "linear"
+        }
+      ],
+      "dataSetting": {
+        "optionIndex": "1",
+        "quantity": 100,
+        "row": 1000
+      },
+      "fitModel": "standard",
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(门店数)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#03B98C",
+            "fontSize": 22,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "currency",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(销售额)",
+          "keyId": "1-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#F5282D",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "tableSetting": {
+        "align": "center",
+        "cell": {
+          "disabled": false,
+          "width": "140"
+        },
+        "inner": {
+          "color": "#4284F5",
+          "width": "1"
+        },
+        "outter": {
+          "color": "#F5282D",
+          "width": "1"
+        },
+        "padding": {
+          "bottom": 0,
+          "disabled_left_right": false,
+          "disabled_top_bottom": false,
+          "left": 4,
+          "right": 4,
+          "top": 0
+        }
+      },
+      "tableTitleData": [
+        {
+          "display": "auto",
+          "key": "RFM类别 / 销售额Top10 / 彩妆",
+          "style": {
+            "fill": "#8643E0",
+            "font-size": 18,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "RFM类别 / 销售额Top10 / 彩妆"
+        },
+        {
+          "display": "auto",
+          "key": "sum(门店数)",
+          "style": {
+            "fill": "#8643E0",
+            "font-size": 18,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(门店数)"
+        },
+        {
+          "display": "auto",
+          "key": "sum(销售额)",
+          "style": {
+            "fill": "#8643E0",
+            "font-size": 18,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(销售额)"
+        },
+        {
+          "display": "auto",
+          "key": "区域",
+          "style": {
+            "fill": "#8643E0",
+            "font-size": 18,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "区域"
+        }
+      ],
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "center",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#03B98C",
+            "fontSize": 16,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(门店数)"
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(销售额)",
+          "key": "sum(销售额)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#F5282D",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(销售额)"
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "center",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#216A58",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "区域"
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "RFM类别"
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "销售额Top10",
+          "key": "销售额Top10",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "销售额Top10"
+          },
+          "title": "销售额Top10",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "彩妆",
+          "key": "彩妆",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "彩妆"
+          },
+          "title": "彩妆",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "col": [
+        {
+          "dtype": "CAT",
+          "name": "RFM类别"
+        },
+        {
+          "dtype": "CAT",
+          "name": "销售额Top10"
+        },
+        {
+          "dtype": "CAT",
+          "name": "彩妆"
+        }
+      ],
+      "color": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "门店数"
+      },
+      "ncols": 1000,
+      "row": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "门店数"
+        },
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "销售额"
+        },
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        }
+      ]
+    },
+    "worksheet_id": "1c4e389c664811edbc89caaca93f1505",
+    "worksheet_idx": 22,
+    "worksheet_name": "canvas22",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas22",
+    "worksheet_title_css": null,
+    "worksheet_type": "01",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 34458217.5,
+        "sum(门店数)": 80,
+        "区域": "西南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 7501784.9,
+        "sum(门店数)": 20,
+        "区域": "西北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 7195600.3,
+        "sum(门店数)": 10,
+        "区域": "华东区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 106055388.2,
+        "sum(门店数)": 142,
+        "区域": "华南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 10459847.2,
+        "sum(门店数)": 16,
+        "区域": "null",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 39328847,
+        "sum(门店数)": 64,
+        "区域": "西南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 6337477.5,
+        "sum(门店数)": 13,
+        "区域": "华北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 27917710.1,
+        "sum(门店数)": 25,
+        "区域": "西北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 41111768.3,
+        "sum(门店数)": 77,
+        "区域": "华东区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 34008264.9,
+        "sum(门店数)": 49,
+        "区域": "华南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 63465933.3,
+        "sum(门店数)": 143,
+        "区域": "null",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 21084826,
+        "sum(门店数)": 10,
+        "区域": "华东区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 19714790,
+        "sum(门店数)": 25,
+        "区域": "华南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "null",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 27447778,
+        "sum(门店数)": 20,
+        "区域": "西南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 16037545,
+        "sum(门店数)": 5,
+        "区域": "西北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 24914146,
+        "sum(门店数)": 5,
+        "区域": "华东区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 53737720,
+        "sum(门店数)": 64,
+        "区域": "华南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "null",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": 126380410,
+        "sum(门店数)": 88,
+        "区域": "西北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华东区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": 170271780,
+        "sum(门店数)": 242,
+        "区域": "华南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "null",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华东区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": 58514876,
+        "sum(门店数)": 62,
+        "区域": "null",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华东区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 23726926,
+        "sum(门店数)": 56,
+        "区域": "华南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "null",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华东区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 27708301,
+        "sum(门店数)": 21,
+        "区域": "华南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "null",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "非销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "西北区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华东区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 286880637,
+        "sum(门店数)": 339,
+        "区域": "华南区",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 26312460,
+        "sum(门店数)": 25,
+        "区域": "null",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 92917890,
+        "sum(门店数)": 51,
+        "区域": "西南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 15635562,
+        "sum(门店数)": 13,
+        "区域": "西北区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "sum(门店数)": null,
+        "区域": "华东区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 205680512,
+        "sum(门店数)": 266,
+        "区域": "华南区",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 36072536,
+        "sum(门店数)": 47,
+        "区域": "null",
+        "彩妆": "彩妆销售额小于30%",
+        "销售额Top10": "销售额排名前10%"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "RFM类别",
+        "销售额Top10",
+        "彩妆"
+      ],
+      "y_dimensions": [
+        null,
+        null,
+        "区域"
+      ]
+    }
+  }
+}

@@ -1,0 +1,224 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axis_style": [],
+      "bgCss": {
+        "background": "#667389",
+        "color": "#6b6b6b",
+        "index": 9,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "Sex",
+          "list": [
+            {
+              "color": "rgba(66, 132, 245, 100)",
+              "val": "female"
+            },
+            {
+              "color": "rgba(3, 185, 140, 100)",
+              "val": "male"
+            }
+          ],
+          "name": "Sex",
+          "opacity": 100
+        }
+      ],
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(SibSp)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(SibSp)",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "size": 55,
+      "sizeKey": "sum(Survived)",
+      "titleCss": {
+        "color": "#FFFFFF"
+      },
+      "tooltipList": [
+        {
+          "display": "hidden",
+          "format": {},
+          "hasLegend": true,
+          "id": "Sex",
+          "key": "Sex",
+          "legendCheck": true,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "Sex",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(Survived)",
+          "key": "sum(Survived)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Survived)11",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(SibSp)",
+          "key": "sum(SibSp)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(SibSp)11",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "Sex"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "SibSp"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "Survived"
+      }
+    },
+    "worksheet_id": "75ecd77a2d1011eeb245d60082ce67a6",
+    "worksheet_idx": 7,
+    "worksheet_name": "canvas7",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas7",
+    "worksheet_title_css": null,
+    "worksheet_type": "11",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "Sex": "male",
+        "sum(SibSp)": 248,
+        "sum(Survived)": 109
+      },
+      {
+        "Sex": "female",
+        "sum(SibSp)": 218,
+        "sum(Survived)": 233
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "Sex"
+      ],
+      "labels": [
+        null
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  }
+}

@@ -1,0 +1,401 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "colorList": [
+        {
+          "aggr": "sum(销售额)",
+          "colored_type": "linear",
+          "id": "#dc_6f549e1456a811edbc89caaca93f1505",
+          "key": "sum(销售额)",
+          "list": [
+            {
+              "color": "rgb(191, 215, 255)",
+              "index": 0,
+              "originValue": 6337477.5,
+              "rangeType": "min",
+              "type": "linear",
+              "unique": "6.34M",
+              "val": "6.34M",
+              "value": 6337477.5
+            },
+            {
+              "color": "rgb(37, 119, 242)",
+              "index": 1,
+              "originValue": 543996376,
+              "rangeType": "max",
+              "type": "linear",
+              "unique": "544M",
+              "val": "544M",
+              "value": 543996376
+            }
+          ],
+          "name": "sum(销售额)",
+          "opacity": 100,
+          "showRange": true,
+          "type": "linear"
+        }
+      ],
+      "fitModel": "standard",
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(销售额)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "tableSetting": {
+        "cell": {
+          "disabled": false,
+          "width": 100
+        },
+        "inner": {
+          "color": "#c2c9d1",
+          "width": 1
+        },
+        "outter": {
+          "color": "#c2c9d1",
+          "width": 1
+        },
+        "padding": {
+          "bottom": 0,
+          "disabled_left_right": false,
+          "disabled_top_bottom": false,
+          "left": 4,
+          "right": 4,
+          "top": 0
+        }
+      },
+      "tableTitleData": [
+        {
+          "display": "auto",
+          "key": "销售额倒数Top10 / 区域",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "销售额倒数Top10 / 区域"
+        },
+        {
+          "display": "auto",
+          "key": "RFM类别",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "RFM类别"
+        }
+      ],
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(销售额)",
+          "key": "sum(销售额)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false,
+            "title": "sum(销售额)"
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false,
+            "title": "RFM类别"
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "销售额倒数Top10",
+          "key": "销售额倒数Top10",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false,
+            "title": "销售额倒数Top10"
+          },
+          "title": "销售额倒数Top10",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false,
+            "title": "区域"
+          },
+          "title": "区域",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "col": [
+        {
+          "dtype": "CAT",
+          "name": "销售额倒数Top10"
+        },
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        }
+      ],
+      "color": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "销售额"
+      },
+      "ncols": 1000,
+      "row": [
+        {
+          "dtype": "CAT",
+          "name": "RFM类别"
+        }
+      ],
+      "text": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "销售额"
+        }
+      ]
+    },
+    "worksheet_id": "6f549e1456a811edbc89caaca93f1505",
+    "worksheet_idx": 15,
+    "worksheet_name": "canvas15",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas15",
+    "worksheet_title_css": null,
+    "worksheet_type": "01",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 101234842.50000001,
+        "区域": "西南区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "区域": "西南区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 92917890,
+        "区域": "西南区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 6337477.5,
+        "区域": "华北区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "区域": "华北区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "区域": "华北区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 51457039.99999999,
+        "区域": "西北区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": 126380410,
+        "区域": "西北区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 15635562,
+        "区域": "西北区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 94306340.6,
+        "区域": "华东区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": null,
+        "区域": "华东区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": null,
+        "区域": "华东区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 213516163.10000002,
+        "区域": "华南区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": 170271780,
+        "区域": "华南区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 543996376,
+        "区域": "华南区",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(销售额)": 73925780.5,
+        "区域": "null",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(销售额)": 58514876,
+        "区域": "null",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(销售额)": 62384996,
+        "区域": "null",
+        "销售额倒数Top10": "非销售额倒数Top10"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "销售额倒数Top10",
+        "区域"
+      ],
+      "y_dimensions": [
+        "RFM类别"
+      ]
+    }
+  }
+}

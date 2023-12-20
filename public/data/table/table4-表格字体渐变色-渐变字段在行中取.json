@@ -1,0 +1,1050 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "aggr": "sum(中等价值用户)",
+          "colored_type": "linear",
+          "id": "#dc_1c4e389c664811edbc89caaca93f1505",
+          "key": "sum(中等价值用户)",
+          "list": [
+            {
+              "color": "rgb(191, 215, 255)",
+              "index": 0,
+              "originValue": 0,
+              "rangeType": "min",
+              "type": "linear",
+              "unique": "0.00",
+              "val": "0.00",
+              "value": 0
+            },
+            {
+              "color": "rgb(37, 119, 242)",
+              "index": 1,
+              "originValue": 2,
+              "rangeType": "max",
+              "type": "linear",
+              "unique": "2.00",
+              "val": "2.00",
+              "value": 2
+            }
+          ],
+          "name": "sum(中等价值用户)",
+          "opacity": 100,
+          "showRange": true,
+          "type": "linear"
+        }
+      ],
+      "dataSetting": {
+        "optionIndex": "1",
+        "quantity": 100,
+        "row": 1000
+      },
+      "fitModel": "standard",
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "currency",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(门店数)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#36C7A3",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(一般用户)",
+          "keyId": "1-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#8643E0",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(一般用户)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(中等价值用户)",
+          "keyId": "2-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(中等价值用户)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(一年进货次数)",
+          "keyId": "3-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(一年进货次数)",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "tableSetting": {
+        "align": "right",
+        "cell": {
+          "disabled": false,
+          "width": "140"
+        },
+        "inner": {
+          "color": "#4284F5",
+          "width": "1"
+        },
+        "outter": {
+          "color": "#8643E0",
+          "width": "1"
+        },
+        "padding": {
+          "bottom": 0,
+          "disabled_left_right": false,
+          "disabled_top_bottom": false,
+          "left": 4,
+          "right": 4,
+          "top": 0
+        }
+      },
+      "tableTitleData": [
+        {
+          "display": "auto",
+          "key": "市 / 单价",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "市 / 单价"
+        },
+        {
+          "display": "auto",
+          "key": "sum(门店数)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(门店数)"
+        },
+        {
+          "display": "auto",
+          "key": "sum(一般用户)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(一般用户)"
+        },
+        {
+          "display": "auto",
+          "key": "sum(中等价值用户)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(中等价值用户)"
+        },
+        {
+          "display": "auto",
+          "key": "sum(一年进货次数)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(一年进货次数)"
+        }
+      ],
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(中等价值用户)",
+          "key": "sum(中等价值用户)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(中等价值用户)"
+          },
+          "title": "sum(中等价值用户)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(门店数)"
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(一般用户)",
+          "key": "sum(一般用户)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(一般用户)"
+          },
+          "title": "sum(一般用户)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(一年进货次数)",
+          "key": "sum(一年进货次数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(一年进货次数)"
+          },
+          "title": "sum(一年进货次数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "市",
+          "key": "市",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "市"
+          },
+          "title": "市",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "单价",
+          "key": "单价",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "单价"
+          },
+          "title": "单价",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "col": [
+        {
+          "dtype": "CAT",
+          "name": "市"
+        },
+        {
+          "dtype": "CAT",
+          "name": "单价"
+        }
+      ],
+      "color": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "中等价值用户"
+      },
+      "ncols": 1000,
+      "row": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "门店数"
+        },
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "一般用户"
+        },
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "中等价值用户"
+        },
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "一年进货次数"
+        }
+      ]
+    },
+    "worksheet_id": "1c4e389c664811edbc89caaca93f1505",
+    "worksheet_idx": 22,
+    "worksheet_name": "canvas22",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas22",
+    "worksheet_title_css": null,
+    "worksheet_type": "01",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "sum(一年进货次数)": 145,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 12,
+        "单价": "商品平均单价中",
+        "市": "丽江市"
+      },
+      {
+        "sum(一年进货次数)": 297,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 8,
+        "单价": "商品平均单价中",
+        "市": "眉山市"
+      },
+      {
+        "sum(一年进货次数)": 28,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 13,
+        "单价": "商品平均单价中",
+        "市": "长春市"
+      },
+      {
+        "sum(一年进货次数)": 653,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 120,
+        "单价": "商品平均单价中",
+        "市": "乌鲁木齐市"
+      },
+      {
+        "sum(一年进货次数)": 163,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 9,
+        "单价": "商品平均单价中",
+        "市": "红河哈尼族彝族自治州"
+      },
+      {
+        "sum(一年进货次数)": 184,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 16,
+        "单价": "商品平均单价中",
+        "市": "洛阳市"
+      },
+      {
+        "sum(一年进货次数)": 250,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 20,
+        "单价": "商品平均单价中",
+        "市": "克拉玛依市"
+      },
+      {
+        "sum(一年进货次数)": 3,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 8,
+        "单价": "商品平均单价中",
+        "市": "德宏傣族景颇族自治州"
+      },
+      {
+        "sum(一年进货次数)": 991,
+        "sum(一般用户)": 8,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 63,
+        "单价": "商品平均单价中",
+        "市": "宜宾市"
+      },
+      {
+        "sum(一年进货次数)": 109,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 6,
+        "单价": "商品平均单价中",
+        "市": "成都市"
+      },
+      {
+        "sum(一年进货次数)": 279,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 7,
+        "单价": "商品平均单价中",
+        "市": "乌海市"
+      },
+      {
+        "sum(一年进货次数)": 453,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 160,
+        "单价": "商品平均单价中",
+        "市": "常德市"
+      },
+      {
+        "sum(一年进货次数)": 574,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 2,
+        "sum(门店数)": 78,
+        "单价": "商品平均单价中",
+        "市": "张家界市"
+      },
+      {
+        "sum(一年进货次数)": 280,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 13,
+        "单价": "商品平均单价中",
+        "市": "十堰市"
+      },
+      {
+        "sum(一年进货次数)": 159,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 34,
+        "单价": "商品平均单价中",
+        "市": "黄冈市"
+      },
+      {
+        "sum(一年进货次数)": 226,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 37,
+        "单价": "商品平均单价中",
+        "市": "株洲市"
+      },
+      {
+        "sum(一年进货次数)": 208,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 4,
+        "单价": "商品平均单价中",
+        "市": "大连市"
+      },
+      {
+        "sum(一年进货次数)": 189,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 15,
+        "单价": "商品平均单价中",
+        "市": "贵阳市"
+      },
+      {
+        "sum(一年进货次数)": 143,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 13,
+        "单价": "商品平均单价中",
+        "市": "芜湖市"
+      },
+      {
+        "sum(一年进货次数)": 234,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 31,
+        "单价": "商品平均单价中",
+        "市": "亳州市"
+      },
+      {
+        "sum(一年进货次数)": 287,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 62,
+        "单价": "商品平均单价中",
+        "市": "阜阳市"
+      },
+      {
+        "sum(一年进货次数)": 120,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 13,
+        "单价": "商品平均单价中",
+        "市": "厦门市"
+      },
+      {
+        "sum(一年进货次数)": 609,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 2,
+        "sum(门店数)": 33,
+        "单价": "商品平均单价中",
+        "市": "上饶市"
+      },
+      {
+        "sum(一年进货次数)": 35,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 5,
+        "单价": "商品平均单价中",
+        "市": "娄底市"
+      },
+      {
+        "sum(一年进货次数)": 339,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 139,
+        "单价": "商品平均单价中",
+        "市": "嘉兴市"
+      },
+      {
+        "sum(一年进货次数)": 347,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 81,
+        "单价": "商品平均单价中",
+        "市": "邵阳市"
+      },
+      {
+        "sum(一年进货次数)": 305,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 19,
+        "单价": "商品平均单价中",
+        "市": "莆田市"
+      },
+      {
+        "sum(一年进货次数)": 62,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 19,
+        "单价": "商品平均单价中",
+        "市": "淮南市"
+      },
+      {
+        "sum(一年进货次数)": 197,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 8,
+        "单价": "商品平均单价中",
+        "市": "安顺市"
+      },
+      {
+        "sum(一年进货次数)": 162,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 3,
+        "单价": "商品平均单价中",
+        "市": "阿勒泰地区"
+      },
+      {
+        "sum(一年进货次数)": 660,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 2,
+        "sum(门店数)": 125,
+        "单价": "商品平均单价中",
+        "市": "福州市"
+      },
+      {
+        "sum(一年进货次数)": 556,
+        "sum(一般用户)": 4,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 33,
+        "单价": "商品平均单价中",
+        "市": "null"
+      },
+      {
+        "sum(一年进货次数)": 22,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 5,
+        "单价": "商品平均单价中",
+        "市": "荆门市"
+      },
+      {
+        "sum(一年进货次数)": 322,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 109,
+        "单价": "商品平均单价中",
+        "市": "温州市"
+      },
+      {
+        "sum(一年进货次数)": 268,
+        "sum(一般用户)": 3,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 22,
+        "单价": "商品平均单价中",
+        "市": "雅安市"
+      },
+      {
+        "sum(一年进货次数)": 262,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 27,
+        "单价": "商品平均单价中",
+        "市": "衡阳市"
+      },
+      {
+        "sum(一年进货次数)": 123,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 5,
+        "单价": "商品平均单价中",
+        "市": "西安市"
+      },
+      {
+        "sum(一年进货次数)": 137,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 10,
+        "单价": "商品平均单价中",
+        "市": "淄博市"
+      },
+      {
+        "sum(一年进货次数)": 90,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 3,
+        "单价": "商品平均单价中",
+        "市": "迪庆藏族自治州"
+      },
+      {
+        "sum(一年进货次数)": 375,
+        "sum(一般用户)": 4,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 20,
+        "单价": "商品平均单价中",
+        "市": "赣州市"
+      },
+      {
+        "sum(一年进货次数)": 277,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 41,
+        "单价": "商品平均单价中",
+        "市": "长沙市"
+      },
+      {
+        "sum(一年进货次数)": 82,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 5,
+        "单价": "商品平均单价高",
+        "市": "三门峡市"
+      },
+      {
+        "sum(一年进货次数)": 71,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 3,
+        "单价": "商品平均单价中",
+        "市": "固原市"
+      },
+      {
+        "sum(一年进货次数)": 522,
+        "sum(一般用户)": 3,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 38,
+        "单价": "商品平均单价中",
+        "市": "杭州市"
+      },
+      {
+        "sum(一年进货次数)": 128,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 103,
+        "单价": "商品平均单价高",
+        "市": "杭州市"
+      },
+      {
+        "sum(一年进货次数)": 205,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 97,
+        "单价": "商品平均单价低",
+        "市": "杭州市"
+      },
+      {
+        "sum(一年进货次数)": 69,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 4,
+        "单价": "商品平均单价中",
+        "市": "昭通市"
+      },
+      {
+        "sum(一年进货次数)": 9,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 4,
+        "单价": "商品平均单价中",
+        "市": "马鞍山市"
+      },
+      {
+        "sum(一年进货次数)": 50,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 3,
+        "单价": "商品平均单价中",
+        "市": "泸州市"
+      },
+      {
+        "sum(一年进货次数)": 179,
+        "sum(一般用户)": 2,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 5,
+        "单价": "商品平均单价中",
+        "市": "宝鸡市"
+      },
+      {
+        "sum(一年进货次数)": 21,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 6,
+        "单价": "商品平均单价中",
+        "市": "资阳市"
+      },
+      {
+        "sum(一年进货次数)": 169,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 7,
+        "单价": "商品平均单价中",
+        "市": "抚州市"
+      },
+      {
+        "sum(一年进货次数)": 109,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 20,
+        "单价": "商品平均单价高",
+        "市": "玉林市"
+      },
+      {
+        "sum(一年进货次数)": 136,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 20,
+        "单价": "商品平均单价中",
+        "市": "永州市"
+      },
+      {
+        "sum(一年进货次数)": 87,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 2,
+        "单价": "商品平均单价中",
+        "市": "咸阳市"
+      },
+      {
+        "sum(一年进货次数)": 96,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 3,
+        "单价": "商品平均单价中",
+        "市": "九江市"
+      },
+      {
+        "sum(一年进货次数)": 151,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 51,
+        "单价": "商品平均单价中",
+        "市": "拉萨市"
+      },
+      {
+        "sum(一年进货次数)": 131,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 9,
+        "单价": "商品平均单价中",
+        "市": "宜昌市"
+      },
+      {
+        "sum(一年进货次数)": 80,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 4,
+        "单价": "商品平均单价中",
+        "市": "鄂尔多斯市"
+      },
+      {
+        "sum(一年进货次数)": 89,
+        "sum(一般用户)": 0,
+        "sum(中等价值用户)": 1,
+        "sum(门店数)": 47,
+        "单价": "商品平均单价中",
+        "市": "扬州市"
+      },
+      {
+        "sum(一年进货次数)": 76,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 44,
+        "单价": "商品平均单价低",
+        "市": "汕头市"
+      },
+      {
+        "sum(一年进货次数)": 62,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 10,
+        "单价": "商品平均单价中",
+        "市": "恩施土家族苗族自治州"
+      },
+      {
+        "sum(一年进货次数)": 103,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 26,
+        "单价": "商品平均单价中",
+        "市": "重庆市"
+      },
+      {
+        "sum(一年进货次数)": 65,
+        "sum(一般用户)": 1,
+        "sum(中等价值用户)": 0,
+        "sum(门店数)": 18,
+        "单价": "商品平均单价中",
+        "市": "遂宁市"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "市",
+        "单价"
+      ],
+      "y_dimensions": [
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  }
+}

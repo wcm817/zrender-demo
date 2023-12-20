@@ -1,0 +1,740 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "colorList": [],
+      "fitModel": "standard",
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(门店数)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(销售额)",
+          "keyId": "1-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(一般用户)",
+          "keyId": "2-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(一般用户)",
+          "type": "linear"
+        }
+      ],
+      "tableSetting": {
+        "cell": {
+          "disabled": false,
+          "width": 100
+        },
+        "inner": {
+          "color": "#c2c9d1",
+          "width": 1
+        },
+        "outter": {
+          "color": "#c2c9d1",
+          "width": 1
+        },
+        "padding": {
+          "bottom": 0,
+          "disabled_left_right": false,
+          "disabled_top_bottom": false,
+          "left": 4,
+          "right": 4,
+          "top": 0
+        }
+      },
+      "tableTitleData": [
+        {
+          "display": "none",
+          "key": "sum(门店数)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(门店数)"
+        },
+        {
+          "display": "none",
+          "key": "sum(销售额)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(销售额)"
+        },
+        {
+          "display": "none",
+          "key": "sum(一般用户)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(一般用户)"
+        },
+        {
+          "display": "auto",
+          "key": "儿童",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "儿童"
+        },
+        {
+          "display": "auto",
+          "key": "区域",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "区域"
+        },
+        {
+          "display": "none",
+          "key": "RFM类别",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "RFM类别"
+        },
+        {
+          "display": "none",
+          "key": "护肤品",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "护肤品"
+        },
+        {
+          "display": "none",
+          "key": "销量Top10",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 12,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "销量Top10"
+        }
+      ],
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "区域"
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "RFM类别"
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "护肤品",
+          "key": "护肤品",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "护肤品"
+          },
+          "title": "护肤品",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "销量Top10",
+          "key": "销量Top10",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "销量Top10"
+          },
+          "title": "销量Top10",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(门店数)"
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(销售额)",
+          "key": "sum(销售额)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(销售额)"
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "儿童",
+          "key": "儿童",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "儿童"
+          },
+          "title": "儿童",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(一般用户)",
+          "key": "sum(一般用户)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(一般用户)"
+          },
+          "title": "sum(一般用户)",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "col": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "门店数"
+        },
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "销售额"
+        },
+        {
+          "dtype": "CAT",
+          "name": "儿童"
+        },
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "一般用户"
+        }
+      ],
+      "ncols": 1000,
+      "row": [
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        },
+        {
+          "dtype": "CAT",
+          "name": "RFM类别"
+        },
+        {
+          "dtype": "CAT",
+          "name": "护肤品"
+        },
+        {
+          "dtype": "CAT",
+          "name": "销量Top10"
+        }
+      ]
+    },
+    "worksheet_id": "6f549e1456a811edbc89caaca93f1505",
+    "worksheet_idx": 15,
+    "worksheet_name": "canvas15",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas15",
+    "worksheet_title_css": null,
+    "worksheet_type": "01",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 18,
+        "sum(销售额)": 73119745.80000001,
+        "sum(门店数)": 141,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 1,
+        "sum(销售额)": 27447778,
+        "sum(门店数)": 20,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 1,
+        "sum(销售额)": 667318.7,
+        "sum(门店数)": 3,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西南区",
+        "护肤品": "护肤品销售额小于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 92917890,
+        "sum(门店数)": 51,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 1,
+        "sum(销售额)": 6337477.5,
+        "sum(门店数)": 13,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华北区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 8,
+        "sum(销售额)": 35419495,
+        "sum(门店数)": 45,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西北区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 1,
+        "sum(销售额)": 16037545,
+        "sum(门店数)": 5,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西北区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 15635562,
+        "sum(门店数)": 13,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西北区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 126380410,
+        "sum(门店数)": 88,
+        "儿童": "儿童销售额小于30%",
+        "区域": "西北区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 9,
+        "sum(销售额)": 73221514.6,
+        "sum(门店数)": 92,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华东区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 1,
+        "sum(销售额)": 21084826,
+        "sum(门店数)": 10,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华东区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 21,
+        "sum(销售额)": 167481739.10000002,
+        "sum(门店数)": 232,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 2,
+        "sum(销售额)": 40184664,
+        "sum(门店数)": 40,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 1,
+        "sum(销售额)": 5849760,
+        "sum(门店数)": 8,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华南区",
+        "护肤品": "护肤品销售额小于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 68118348,
+        "sum(门店数)": 99,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 475878028,
+        "sum(门店数)": 583,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 170271780,
+        "sum(门店数)": 242,
+        "儿童": "儿童销售额小于30%",
+        "区域": "华南区",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 12,
+        "sum(销售额)": 63492387.7,
+        "sum(门店数)": 79,
+        "儿童": "儿童销售额小于30%",
+        "区域": "null",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "一般用户",
+        "sum(一般用户)": 3,
+        "sum(销售额)": 10433392.8,
+        "sum(门店数)": 80,
+        "儿童": "儿童销售额小于30%",
+        "区域": "null",
+        "护肤品": "护肤品销售额小于30%",
+        "销量Top10": "非销量排名前10%"
+      },
+      {
+        "RFM类别": "中等价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 62384996,
+        "sum(门店数)": 72,
+        "儿童": "儿童销售额小于30%",
+        "区域": "null",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      },
+      {
+        "RFM类别": "高价值用户",
+        "sum(一般用户)": 0,
+        "sum(销售额)": 58514876,
+        "sum(门店数)": 62,
+        "儿童": "儿童销售额小于30%",
+        "区域": "null",
+        "护肤品": "客户对护肤品种类的销售额占比大于30%",
+        "销量Top10": "销量排名前10%"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        null,
+        null,
+        "儿童",
+        null
+      ],
+      "y_dimensions": [
+        "区域",
+        "RFM类别",
+        "护肤品",
+        "销量Top10"
+      ]
+    }
+  }
+}

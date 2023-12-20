@@ -1,0 +1,410 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [],
+      "dataSetting": {
+        "optionIndex": "1",
+        "quantity": 100,
+        "row": 1000
+      },
+      "fitModel": "standard",
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(门店数)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "tableSetting": {
+        "align": "right",
+        "cell": {
+          "disabled": false,
+          "width": "140"
+        },
+        "inner": {
+          "color": "#4284F5",
+          "width": "1"
+        },
+        "outter": {
+          "color": "#8643E0",
+          "width": "1"
+        },
+        "padding": {
+          "bottom": 0,
+          "disabled_left_right": false,
+          "disabled_top_bottom": false,
+          "left": 4,
+          "right": 4,
+          "top": 0
+        }
+      },
+      "tableTitleData": [
+        {
+          "display": "auto",
+          "key": "sum(门店数)",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "sum(门店数)"
+        },
+        {
+          "display": "auto",
+          "key": "彩妆",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "彩妆"
+        },
+        {
+          "display": "auto",
+          "key": "儿童",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "儿童"
+        },
+        {
+          "display": "auto",
+          "key": "化妆工具",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "化妆工具"
+        },
+        {
+          "display": "auto",
+          "key": "居家日用",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "居家日用"
+        },
+        {
+          "display": "auto",
+          "key": "个人护理",
+          "style": {
+            "fill": "#6b6b6b",
+            "font-size": 16,
+            "font-style": "normal",
+            "letter-spacing": "0",
+            "line-height": "24",
+            "text-align": "left"
+          },
+          "title": "个人护理"
+        }
+      ],
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "儿童",
+          "key": "儿童",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "儿童"
+          },
+          "title": "儿童",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "化妆工具",
+          "key": "化妆工具",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "化妆工具"
+          },
+          "title": "化妆工具",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "居家日用",
+          "key": "居家日用",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "居家日用"
+          },
+          "title": "居家日用",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "个人护理",
+          "key": "个人护理",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "个人护理"
+          },
+          "title": "个人护理",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "sum(门店数)"
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "彩妆",
+          "key": "彩妆",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": 26,
+            "setFlag": false,
+            "title": "彩妆"
+          },
+          "title": "彩妆",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "col": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "门店数"
+        },
+        {
+          "dtype": "CAT",
+          "name": "彩妆"
+        }
+      ],
+      "ncols": 1000,
+      "row": [
+        {
+          "dtype": "CAT",
+          "name": "儿童"
+        },
+        {
+          "dtype": "CAT",
+          "name": "化妆工具"
+        },
+        {
+          "dtype": "CAT",
+          "name": "居家日用"
+        },
+        {
+          "dtype": "CAT",
+          "name": "个人护理"
+        }
+      ]
+    },
+    "worksheet_id": "1c4e389c664811edbc89caaca93f1505",
+    "worksheet_idx": 22,
+    "worksheet_name": "canvas22",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas22",
+    "worksheet_title_css": null,
+    "worksheet_type": "01",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "sum(门店数)": 1053,
+        "个人护理": "个人护理销售额小于30%",
+        "儿童": "儿童销售额小于30%",
+        "化妆工具": "化妆工具销售额小于30%",
+        "居家日用": "居家日用销售额小于30%",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%"
+      },
+      {
+        "sum(门店数)": null,
+        "个人护理": "客户对个人护理种类的销售额占比大于30%",
+        "儿童": "儿童销售额小于30%",
+        "化妆工具": "化妆工具销售额小于30%",
+        "居家日用": "居家日用销售额小于30%",
+        "彩妆": "客户对彩妆种类的销售额占比大于30%"
+      },
+      {
+        "sum(门店数)": 899,
+        "个人护理": "个人护理销售额小于30%",
+        "儿童": "儿童销售额小于30%",
+        "化妆工具": "化妆工具销售额小于30%",
+        "居家日用": "居家日用销售额小于30%",
+        "彩妆": "彩妆销售额小于30%"
+      },
+      {
+        "sum(门店数)": 26,
+        "个人护理": "客户对个人护理种类的销售额占比大于30%",
+        "儿童": "儿童销售额小于30%",
+        "化妆工具": "化妆工具销售额小于30%",
+        "居家日用": "居家日用销售额小于30%",
+        "彩妆": "彩妆销售额小于30%"
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        null,
+        "彩妆"
+      ],
+      "y_dimensions": [
+        "儿童",
+        "化妆工具",
+        "居家日用",
+        "个人护理"
+      ]
+    }
+  }
+}

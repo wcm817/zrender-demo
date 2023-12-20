@@ -1,0 +1,286 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axisColor": "#F2F2F2",
+      "axisDash": "dotted",
+      "axisWidth": 1,
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "RFM类别",
+          "fillType": "fill",
+          "key": "sum(销售额)",
+          "keyId": "0-0",
+          "keyName": "销售额",
+          "list": {
+            "一般用户": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "中等价值用户": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "高价值用户": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            }
+          },
+          "opacity": 100,
+          "originalKey": "sum(销售额)",
+          "type": "ordinal"
+        }
+      ],
+      "fitModel": "full",
+      "gapColor": "#EAECED",
+      "gapDash": "line",
+      "gapWidth": 1,
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "isArea": false,
+      "labelsList": [],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "lineSize": 50,
+      "lineStyle": "circle",
+      "scopeList": [],
+      "tickNum": 5,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(销售额)",
+          "key": "sum(销售额)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(销售额)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "ncols": 1000,
+      "x": [
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "color": {
+              "dtype": "CAT",
+              "name": "RFM类别"
+            },
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "name": "销售额"
+          }
+        }
+      ]
+    },
+    "worksheet_id": "1af5504e6af711ed95c89ad36b557c96",
+    "worksheet_idx": 24,
+    "worksheet_name": "canvas24",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas24",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "RFM类别": "一般用户",
+            "sum(销售额)": 101234842.50000001,
+            "区域": "西南区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(销售额)": null,
+            "区域": "西南区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(销售额)": 92917890,
+            "区域": "西南区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(销售额)": 6337477.5,
+            "区域": "华北区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(销售额)": null,
+            "区域": "华北区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(销售额)": null,
+            "区域": "华北区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(销售额)": 51457039.99999999,
+            "区域": "西北区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(销售额)": 126380410,
+            "区域": "西北区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(销售额)": 15635562,
+            "区域": "西北区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(销售额)": 94306340.6,
+            "区域": "华东区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(销售额)": null,
+            "区域": "华东区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(销售额)": null,
+            "区域": "华东区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(销售额)": 213516163.10000002,
+            "区域": "华南区"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(销售额)": 170271780,
+            "区域": "华南区"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(销售额)": 543996376,
+            "区域": "华南区"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(销售额)": 73925780.5,
+            "区域": "null"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(销售额)": 58514876,
+            "区域": "null"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(销售额)": 62384996,
+            "区域": "null"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "区域"
+      ],
+      "y_dimensions": [
+        null
+      ]
+    }
+  }
+}

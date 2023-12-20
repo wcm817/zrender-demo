@@ -1,0 +1,185 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6B6B6B",
+        "index": 0,
+        "opacity": 100
+      },
+      "legendCss": {
+        "isShow": true,
+        "position": "UP"
+      },
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "fitModel": "standard",
+      "colorList": [
+        {
+          "type": "CAT",
+          "title": "指标名称",
+          "feature": "",
+          "opacity": 100,
+          "list": {
+            "sum(Age)": {
+              "color": "#4284F5"
+            }
+          }
+        }
+      ],
+      "labelsList": [],
+      "tooltipList": [
+        {
+          "type": "ordinal",
+          "key": "Embarked",
+          "title": "Embarked",
+          "display": "auto",
+          "legendCheck": false,
+          "format": {},
+          "text": {
+            "align": "left",
+            "display": "auto",
+            "check": false,
+            "decoration": "",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "id": "Embarked",
+          "hasLegend": false
+        },
+        {
+          "type": "linear",
+          "key": "sum(Age)",
+          "title": "sum(Age)",
+          "display": "auto",
+          "legendCheck": false,
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "text": {
+            "align": "left",
+            "display": "auto",
+            "check": false,
+            "decoration": "",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "hasLegend": true,
+          "id": "sum(Age)"
+        }
+      ]
+    },
+    "features": {
+      "x": [
+        {
+          "name": "Embarked",
+          "dtype": "CAT"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "name": "Age",
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "color": {
+              "name": "Sex",
+              "dtype": "CAT"
+            }
+          }
+        }
+      ]
+    },
+    "worksheet_id": "28021c9a489111eea61ede31f2f2469a",
+    "worksheet_idx": 14,
+    "worksheet_name": "canvas14",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas14",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "scopeChange": ""
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "Embarked": "S",
+            "Sex": "male",
+            "sum(Age)": 11147.25
+          },
+          {
+            "Embarked": "S",
+            "Sex": "female",
+            "sum(Age)": 5165.5
+          },
+          {
+            "Embarked": "C",
+            "Sex": "male",
+            "sum(Age)": 2276.92
+          },
+          {
+            "Embarked": "C",
+            "Sex": "female",
+            "sum(Age)": 1729
+          },
+          {
+            "Embarked": "Q",
+            "Sex": "male",
+            "sum(Age)": 495
+          },
+          {
+            "Embarked": "Q",
+            "Sex": "female",
+            "sum(Age)": 291.5
+          },
+          {
+            "Embarked": "null",
+            "Sex": "male",
+            "sum(Age)": null
+          },
+          {
+            "Embarked": "null",
+            "Sex": "female",
+            "sum(Age)": 100
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "Embarked"
+      ],
+      "y_dimensions": [
+        null
+      ]
+    }
+  }
+}

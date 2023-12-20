@@ -1,0 +1,264 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axisColor": "#F2F2F2",
+      "axisDash": "dotted",
+      "axisWidth": 1,
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "",
+          "fillType": "fill",
+          "key": "sum(门店数)",
+          "keyId": "0-0",
+          "keyName": "门店数",
+          "list": {},
+          "opacity": 100,
+          "originalKey": "sum(门店数)",
+          "type": "none"
+        },
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "",
+          "fillType": "fill",
+          "key": "sum(进货次数)",
+          "keyId": "1-0",
+          "keyName": "进货次数",
+          "list": {},
+          "opacity": 100,
+          "originalKey": "sum(进货次数)",
+          "type": "none"
+        }
+      ],
+      "fitModel": "full",
+      "gapColor": "#EAECED",
+      "gapDash": "line",
+      "gapWidth": 1,
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "isArea": false,
+      "labelsList": [],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "lineSize": 50,
+      "lineStyle": "circle",
+      "scopeList": [],
+      "tickNum": 5,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "区域",
+          "key": "区域",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "区域",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(进货次数)",
+          "key": "sum(进货次数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(进货次数)",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "ncols": 1000,
+      "x": [
+        {
+          "dtype": "CAT",
+          "name": "区域"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "name": "门店数"
+          }
+        },
+        {
+          "feature": {
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "name": "进货次数"
+          }
+        }
+      ]
+    },
+    "worksheet_id": "1af5504e6af711ed95c89ad36b557c96",
+    "worksheet_idx": 24,
+    "worksheet_name": "canvas24",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas24",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "sum(门店数)": 215,
+            "区域": "西南区"
+          },
+          {
+            "sum(门店数)": 13,
+            "区域": "华北区"
+          },
+          {
+            "sum(门店数)": 151,
+            "区域": "西北区"
+          },
+          {
+            "sum(门店数)": 102,
+            "区域": "华东区"
+          },
+          {
+            "sum(门店数)": 1204,
+            "区域": "华南区"
+          },
+          {
+            "sum(门店数)": 293,
+            "区域": "null"
+          }
+        ]
+      },
+      {
+        "feature": [
+          {
+            "sum(进货次数)": 313,
+            "区域": "西南区"
+          },
+          {
+            "sum(进货次数)": 2,
+            "区域": "华北区"
+          },
+          {
+            "sum(进货次数)": 183,
+            "区域": "西北区"
+          },
+          {
+            "sum(进货次数)": 151,
+            "区域": "华东区"
+          },
+          {
+            "sum(进货次数)": 840,
+            "区域": "华南区"
+          },
+          {
+            "sum(进货次数)": 265,
+            "区域": "null"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "区域"
+      ],
+      "y_dimensions": [
+        null,
+        null
+      ]
+    }
+  }
+}

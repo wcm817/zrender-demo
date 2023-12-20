@@ -1,0 +1,226 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "axisColor": "#F2F2F2",
+      "axisDash": "dotted",
+      "axisWidth": 1,
+      "axis_style": [],
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "RFM类别",
+          "fillType": "fill",
+          "key": "sum(门店数)",
+          "keyId": "0-0",
+          "keyName": "门店数",
+          "list": {
+            "一般用户": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "中等价值用户": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "高价值用户": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            }
+          },
+          "opacity": 100,
+          "originalKey": "sum(门店数)",
+          "type": "ordinal"
+        }
+      ],
+      "fitModel": "full",
+      "gapColor": "#EAECED",
+      "gapDash": "line",
+      "gapWidth": 1,
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "isArea": false,
+      "labelsList": [],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "lineSize": 50,
+      "lineStyle": "circle",
+      "scopeList": [],
+      "tickNum": 5,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "彩妆",
+          "key": "彩妆",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "彩妆",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(门店数)",
+          "key": "sum(门店数)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(门店数)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "RFM类别",
+          "key": "RFM类别",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 14,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "RFM类别",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "ncols": 1000,
+      "x": [
+        {
+          "dtype": "CAT",
+          "name": "彩妆"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "color": {
+              "dtype": "CAT",
+              "name": "RFM类别"
+            },
+            "dtype": "AGGR",
+            "legend": "SUM",
+            "name": "门店数"
+          }
+        }
+      ]
+    },
+    "worksheet_id": "1af5504e6af711ed95c89ad36b557c96",
+    "worksheet_idx": 24,
+    "worksheet_name": "canvas24",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas24",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "RFM类别": "一般用户",
+            "sum(门店数)": 303,
+            "彩妆": "客户对彩妆种类的销售额占比大于30%"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(门店数)": 330,
+            "彩妆": "客户对彩妆种类的销售额占比大于30%"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(门店数)": 420,
+            "彩妆": "客户对彩妆种类的销售额占比大于30%"
+          },
+          {
+            "RFM类别": "一般用户",
+            "sum(门店数)": 465,
+            "彩妆": "彩妆销售额小于30%"
+          },
+          {
+            "RFM类别": "高价值用户",
+            "sum(门店数)": 62,
+            "彩妆": "彩妆销售额小于30%"
+          },
+          {
+            "RFM类别": "中等价值用户",
+            "sum(门店数)": 398,
+            "彩妆": "彩妆销售额小于30%"
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "彩妆"
+      ],
+      "y_dimensions": [
+        null
+      ]
+    }
+  }
+}

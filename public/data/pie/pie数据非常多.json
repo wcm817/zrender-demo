@@ -1,0 +1,1116 @@
+{
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "Name": "Goldschmidt, Mr. George B",
+        "sum(Age)": 71,
+        "sum(Age) percent": 0.03367594257066019
+      },
+      {
+        "Name": "Wheadon, Mr. Edward H",
+        "sum(Age)": 66,
+        "sum(Age) percent": 0.03130439731920525
+      },
+      {
+        "Name": "Ostby, Mr. Engelhart Cornelius",
+        "sum(Age)": 65,
+        "sum(Age) percent": 0.03083008826891426
+      },
+      {
+        "Name": "Coxon, Mr. Daniel",
+        "sum(Age)": 59,
+        "sum(Age) percent": 0.02798423396716833
+      },
+      {
+        "Name": "Bonnell, Miss. Elizabeth",
+        "sum(Age)": 58,
+        "sum(Age) percent": 0.02750992491687734
+      },
+      {
+        "Name": "Hewlett, Mrs. (Mary D Kingcome) ",
+        "sum(Age)": 55,
+        "sum(Age) percent": 0.026086997766004375
+      },
+      {
+        "Name": "McCarthy, Mr. Timothy J",
+        "sum(Age)": 54,
+        "sum(Age) percent": 0.025612688715713386
+      },
+      {
+        "Name": "Harper, Mrs. Henry Sleeper (Myna Haxtun)",
+        "sum(Age)": 49,
+        "sum(Age) percent": 0.023241143464258443
+      },
+      {
+        "Name": "Chaffee, Mr. Herbert Fuller",
+        "sum(Age)": 46,
+        "sum(Age) percent": 0.021818216313385475
+      },
+      {
+        "Name": "Harris, Mr. Henry Birkhardt",
+        "sum(Age)": 45,
+        "sum(Age) percent": 0.02134390726309449
+      },
+      {
+        "Name": "Holverson, Mr. Alexander Oskar",
+        "sum(Age)": 42,
+        "sum(Age) percent": 0.01992098011222152
+      },
+      {
+        "Name": "Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",
+        "sum(Age)": 40,
+        "sum(Age) percent": 0.018972362011639543
+      },
+      {
+        "Name": "Uruchurtu, Don. Manuel E",
+        "sum(Age)": 40,
+        "sum(Age) percent": 0.018972362011639543
+      },
+      {
+        "Name": "Andersson, Mr. Anders Johan",
+        "sum(Age)": 39,
+        "sum(Age) percent": 0.018498052961348557
+      },
+      {
+        "Name": "Icard, Miss. Amelie",
+        "sum(Age)": 38,
+        "sum(Age) percent": 0.018023743911057568
+      },
+      {
+        "Name": "Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",
+        "sum(Age)": 38,
+        "sum(Age) percent": 0.018023743911057568
+      },
+      {
+        "Name": "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",
+        "sum(Age)": 38,
+        "sum(Age) percent": 0.018023743911057568
+      },
+      {
+        "Name": "Allen, Mr. William Henry",
+        "sum(Age)": 35,
+        "sum(Age) percent": 0.0166008167601846
+      },
+      {
+        "Name": "Futrelle, Mrs. Jacques Heath (Lily May Peel)",
+        "sum(Age)": 35,
+        "sum(Age) percent": 0.0166008167601846
+      },
+      {
+        "Name": "Fynney, Mr. Joseph J",
+        "sum(Age)": 35,
+        "sum(Age) percent": 0.0166008167601846
+      },
+      {
+        "Name": "Beesley, Mr. Lawrence",
+        "sum(Age)": 34,
+        "sum(Age) percent": 0.016126507709893614
+      },
+      {
+        "Name": "Doling, Mrs. John T (Ada Julia Bone)",
+        "sum(Age)": 34,
+        "sum(Age) percent": 0.016126507709893614
+      },
+      {
+        "Name": "Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",
+        "sum(Age)": 33,
+        "sum(Age) percent": 0.015652198659602625
+      },
+      {
+        "Name": "Bing, Mr. Lee",
+        "sum(Age)": 32,
+        "sum(Age) percent": 0.015177889609311636
+      },
+      {
+        "Name": "Jenkin, Mr. Stephen Curnow",
+        "sum(Age)": 32,
+        "sum(Age) percent": 0.015177889609311636
+      },
+      {
+        "Name": "Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",
+        "sum(Age)": 31,
+        "sum(Age) percent": 0.014703580559020647
+      },
+      {
+        "Name": "Dowdell, Miss. Elizabeth",
+        "sum(Age)": 30,
+        "sum(Age) percent": 0.014229271508729659
+      },
+      {
+        "Name": "Sheerlinck, Mr. Jan Baptist",
+        "sum(Age)": 29,
+        "sum(Age) percent": 0.01375496245843867
+      },
+      {
+        "Name": "Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",
+        "sum(Age)": 29,
+        "sum(Age) percent": 0.01375496245843867
+      },
+      {
+        "Name": "Nye, Mrs. (Elizabeth Ramell)",
+        "sum(Age)": 29,
+        "sum(Age) percent": 0.01375496245843867
+      },
+      {
+        "Name": "Christmann, Mr. Emil",
+        "sum(Age)": 29,
+        "sum(Age) percent": 0.01375496245843867
+      },
+      {
+        "Name": "Novel, Mr. Mansouer",
+        "sum(Age)": 28.5,
+        "sum(Age) percent": 0.013517807933293175
+      },
+      {
+        "Name": "Carrau, Mr. Francisco M",
+        "sum(Age)": 28,
+        "sum(Age) percent": 0.01328065340814768
+      },
+      {
+        "Name": "Meyer, Mr. Edgar Joseph",
+        "sum(Age)": 28,
+        "sum(Age) percent": 0.01328065340814768
+      },
+      {
+        "Name": "Sloper, Mr. William Thompson",
+        "sum(Age)": 28,
+        "sum(Age) percent": 0.01328065340814768
+      },
+      {
+        "Name": "Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",
+        "sum(Age)": 27,
+        "sum(Age) percent": 0.012806344357856693
+      },
+      {
+        "Name": "Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",
+        "sum(Age)": 27,
+        "sum(Age) percent": 0.012806344357856693
+      },
+      {
+        "Name": "Chronopoulos, Mr. Apostolos",
+        "sum(Age)": 26,
+        "sum(Age) percent": 0.012332035307565704
+      },
+      {
+        "Name": "Kink, Mr. Vincenz",
+        "sum(Age)": 26,
+        "sum(Age) percent": 0.012332035307565704
+      },
+      {
+        "Name": "Dean, Mr. Bertram Frank",
+        "sum(Age)": 26,
+        "sum(Age) percent": 0.012332035307565704
+      },
+      {
+        "Name": "Heikkinen, Miss. Laina",
+        "sum(Age)": 26,
+        "sum(Age) percent": 0.012332035307565704
+      },
+      {
+        "Name": "Moen, Mr. Sigurd Hansen",
+        "sum(Age)": 25,
+        "sum(Age) percent": 0.011857726257274716
+      },
+      {
+        "Name": "Celotti, Mr. Francesco",
+        "sum(Age)": 24,
+        "sum(Age) percent": 0.011383417206983727
+      },
+      {
+        "Name": "Fortune, Miss. Mabel Helen",
+        "sum(Age)": 23,
+        "sum(Age) percent": 0.010909108156692738
+      },
+      {
+        "Name": "Greenfield, Mr. William Bertram",
+        "sum(Age)": 23,
+        "sum(Age) percent": 0.010909108156692738
+      },
+      {
+        "Name": "Sirayanian, Mr. Orsen",
+        "sum(Age)": 22,
+        "sum(Age) percent": 0.01043479910640175
+      },
+      {
+        "Name": "Waelens, Mr. Achille",
+        "sum(Age)": 22,
+        "sum(Age) percent": 0.01043479910640175
+      },
+      {
+        "Name": "Braund, Mr. Owen Harris",
+        "sum(Age)": 22,
+        "sum(Age) percent": 0.01043479910640175
+      },
+      {
+        "Name": "Nosworthy, Mr. Richard Cater",
+        "sum(Age)": 21,
+        "sum(Age) percent": 0.00996049005611076
+      },
+      {
+        "Name": "Hood, Mr. Ambrose Jr",
+        "sum(Age)": 21,
+        "sum(Age) percent": 0.00996049005611076
+      },
+      {
+        "Name": "Rugg, Miss. Emily",
+        "sum(Age)": 21,
+        "sum(Age) percent": 0.00996049005611076
+      },
+      {
+        "Name": "Cann, Mr. Ernest Charles",
+        "sum(Age)": 21,
+        "sum(Age) percent": 0.00996049005611076
+      },
+      {
+        "Name": "Saundercock, Mr. William Henry",
+        "sum(Age)": 20,
+        "sum(Age) percent": 0.009486181005819772
+      },
+      {
+        "Name": "Andreasson, Mr. Paul Edvin",
+        "sum(Age)": 20,
+        "sum(Age) percent": 0.009486181005819772
+      },
+      {
+        "Name": "Fortune, Mr. Charles Alexander",
+        "sum(Age)": 19,
+        "sum(Age) percent": 0.009011871955528784
+      },
+      {
+        "Name": "Devaney, Miss. Margaret Delia",
+        "sum(Age)": 19,
+        "sum(Age) percent": 0.009011871955528784
+      },
+      {
+        "Name": "Crease, Mr. Ernest James",
+        "sum(Age)": 19,
+        "sum(Age) percent": 0.009011871955528784
+      },
+      {
+        "Name": "Vander Planke, Miss. Augusta Maria",
+        "sum(Age)": 18,
+        "sum(Age) percent": 0.008537562905237795
+      },
+      {
+        "Name": "Arnold-Franchi, Mrs. Josef (Josefine Franchi)",
+        "sum(Age)": 18,
+        "sum(Age) percent": 0.008537562905237795
+      },
+      {
+        "Name": "Andersson, Miss. Erna Alexandra",
+        "sum(Age)": 17,
+        "sum(Age) percent": 0.008063253854946807
+      },
+      {
+        "Name": "Ilett, Miss. Bertha",
+        "sum(Age)": 17,
+        "sum(Age) percent": 0.008063253854946807
+      },
+      {
+        "Name": "Ford, Mr. William Neal",
+        "sum(Age)": 16,
+        "sum(Age) percent": 0.007588944804655818
+      },
+      {
+        "Name": "Goodwin, Miss. Lillian Amy",
+        "sum(Age)": 16,
+        "sum(Age) percent": 0.007588944804655818
+      },
+      {
+        "Name": "\"McGowan, Miss. Anna \"\"Annie\"\"\"",
+        "sum(Age)": 15,
+        "sum(Age) percent": 0.0071146357543648295
+      },
+      {
+        "Name": "Vestrom, Miss. Hulda Amanda Adolfina",
+        "sum(Age)": 14,
+        "sum(Age) percent": 0.00664032670407384
+      },
+      {
+        "Name": "Nicola-Yarred, Miss. Jamila",
+        "sum(Age)": 14,
+        "sum(Age) percent": 0.00664032670407384
+      },
+      {
+        "Name": "Nasser, Mrs. Nicholas (Adele Achem)",
+        "sum(Age)": 14,
+        "sum(Age) percent": 0.00664032670407384
+      },
+      {
+        "Name": "Goodwin, Master. William Frederick",
+        "sum(Age)": 11,
+        "sum(Age) percent": 0.005217399553200875
+      },
+      {
+        "Name": "Palsson, Miss. Torborg Danira",
+        "sum(Age)": 8,
+        "sum(Age) percent": 0.003794472402327909
+      },
+      {
+        "Name": "Panula, Master. Juha Niilo",
+        "sum(Age)": 7,
+        "sum(Age) percent": 0.00332016335203692
+      },
+      {
+        "Name": "West, Miss. Constance Mirium",
+        "sum(Age)": 5,
+        "sum(Age) percent": 0.002371545251454943
+      },
+      {
+        "Name": "Sandstrom, Miss. Marguerite Rut",
+        "sum(Age)": 4,
+        "sum(Age) percent": 0.0018972362011639545
+      },
+      {
+        "Name": "Skoog, Master. Harald",
+        "sum(Age)": 4,
+        "sum(Age) percent": 0.0018972362011639545
+      },
+      {
+        "Name": "Laroche, Miss. Simonne Marie Anne Andree",
+        "sum(Age)": 3,
+        "sum(Age) percent": 0.0014229271508729659
+      },
+      {
+        "Name": "Palsson, Master. Gosta Leonard",
+        "sum(Age)": 2,
+        "sum(Age) percent": 0.0009486181005819772
+      },
+      {
+        "Name": "Rice, Master. Eugene",
+        "sum(Age)": 2,
+        "sum(Age) percent": 0.0009486181005819772
+      },
+      {
+        "Name": "Caldwell, Master. Alden Gates",
+        "sum(Age)": 0.83,
+        "sum(Age) percent": 0.00039367651174152055
+      },
+      {
+        "Name": "Shorney, Mr. Charles Joseph",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Moran, Mr. James",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Williams, Mr. Charles Eugene",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Slocovski, Mr. Selman Francis",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Masselmani, Mrs. Fatima",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Samaan, Mr. Youssef",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "McDermott, Miss. Brigdet Delia",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Emir, Mr. Farred Chehab",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Moutal, Mr. Rahamin Haim",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Staneff, Mr. Ivan",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "\"O'Dwyer, Miss. Ellen \"\"Nellie\"\"\"",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Todoroff, Mr. Lalio",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "O'Driscoll, Miss. Bridget",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Glynn, Miss. Mary Agatha",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Mamee, Mr. Hanna",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Moubarek, Master. Gerios",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Stewart, Mr. Albert A",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Kraeff, Mr. Theodor",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Woolner, Mr. Hugh",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Rogers, Mr. William John",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Lennon, Mr. Denis",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      },
+      {
+        "Name": "Spencer, Mrs. William Augustus (Marie Eugenie)",
+        "sum(Age)": 0,
+        "sum(Age) percent": 0
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [
+        "Name"
+      ],
+      "labels": [
+        null
+      ],
+      "x_dimensions": [],
+      "y_dimensions": []
+    }
+  },
+  "config": {
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "checked": true,
+      "colorList": [
+        {
+          "colored_type": "ordinal",
+          "dataRange": [],
+          "key": "Name",
+          "list": [
+            {
+              "color": "rgba(67, 20, 10, 1)",
+              "originalVal": "Goldschmidt, Mr. George B",
+              "val": "Goldschmidt, Mr. George B"
+            },
+            {
+              "color": "rgba(150, 0, 90, 1)",
+              "originalVal": "Wheadon, Mr. Edward H",
+              "val": "Wheadon, Mr. Edward H"
+            },
+            {
+              "color": "rgba(141, 141, 141, 1)",
+              "originalVal": "Ostby, Mr. Engelhart Cornelius",
+              "val": "Ostby, Mr. Engelhart Cornelius"
+            },
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "Coxon, Mr. Daniel",
+              "val": "Coxon, Mr. Daniel"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "Bonnell, Miss. Elizabeth",
+              "val": "Bonnell, Miss. Elizabeth"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "Hewlett, Mrs. (Mary D Kingcome) ",
+              "val": "Hewlett, Mrs. (Mary D Kingcome) "
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "McCarthy, Mr. Timothy J",
+              "val": "McCarthy, Mr. Timothy J"
+            },
+            {
+              "color": "rgba(133, 67, 224, 1)",
+              "originalVal": "Harper, Mrs. Henry Sleeper (Myna Haxtun)",
+              "val": "Harper, Mrs. Henry Sleeper (Myna Haxtun)"
+            },
+            {
+              "color": "rgba(63, 174, 204, 1)",
+              "originalVal": "Chaffee, Mr. Herbert Fuller",
+              "val": "Chaffee, Mr. Herbert Fuller"
+            },
+            {
+              "color": "rgba(49, 16, 208, 1)",
+              "originalVal": "Harris, Mr. Henry Birkhardt",
+              "val": "Harris, Mr. Henry Birkhardt"
+            },
+            {
+              "color": "rgba(232, 143, 0, 1)",
+              "originalVal": "Holverson, Mr. Alexander Oskar",
+              "val": "Holverson, Mr. Alexander Oskar"
+            },
+            {
+              "color": "rgba(222, 35, 147, 1)",
+              "originalVal": "Ahlin, Mrs. Johan (Johanna Persdotter Larsson)",
+              "val": "Ahlin, Mrs. Johan (Johanna Persdotter Larsson)"
+            },
+            {
+              "color": "rgba(145, 186, 56, 1)",
+              "originalVal": "Uruchurtu, Don. Manuel E",
+              "val": "Uruchurtu, Don. Manuel E"
+            },
+            {
+              "color": "rgba(153, 180, 191, 1)",
+              "originalVal": "Andersson, Mr. Anders Johan",
+              "val": "Andersson, Mr. Anders Johan"
+            },
+            {
+              "color": "rgba(33, 106, 88, 1)",
+              "originalVal": "Icard, Miss. Amelie",
+              "val": "Icard, Miss. Amelie"
+            },
+            {
+              "color": "rgba(171, 148, 56, 1)",
+              "originalVal": "Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)",
+              "val": "Asplund, Mrs. Carl Oscar (Selma Augusta Emilia Johansson)"
+            },
+            {
+              "color": "rgba(244, 153, 155, 1)",
+              "originalVal": "Cumings, Mrs. John Bradley (Florence Briggs Thayer)",
+              "val": "Cumings, Mrs. John Bradley (Florence Briggs Thayer)"
+            },
+            {
+              "color": "rgba(201, 191, 225, 1)",
+              "originalVal": "Allen, Mr. William Henry",
+              "val": "Allen, Mr. William Henry"
+            },
+            {
+              "color": "rgba(5, 81, 102, 1)",
+              "originalVal": "Futrelle, Mrs. Jacques Heath (Lily May Peel)",
+              "val": "Futrelle, Mrs. Jacques Heath (Lily May Peel)"
+            },
+            {
+              "color": "rgba(31, 19, 90, 1)",
+              "originalVal": "Fynney, Mr. Joseph J",
+              "val": "Fynney, Mr. Joseph J"
+            },
+            {
+              "color": "rgba(67, 20, 10, 1)",
+              "originalVal": "Beesley, Mr. Lawrence",
+              "val": "Beesley, Mr. Lawrence"
+            },
+            {
+              "color": "rgba(150, 0, 90, 1)",
+              "originalVal": "Doling, Mrs. John T (Ada Julia Bone)",
+              "val": "Doling, Mrs. John T (Ada Julia Bone)"
+            },
+            {
+              "color": "rgba(141, 141, 141, 1)",
+              "originalVal": "Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)",
+              "val": "Backstrom, Mrs. Karl Alfred (Maria Mathilda Gustafsson)"
+            },
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "Bing, Mr. Lee",
+              "val": "Bing, Mr. Lee"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "Jenkin, Mr. Stephen Curnow",
+              "val": "Jenkin, Mr. Stephen Curnow"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)",
+              "val": "Vander Planke, Mrs. Julius (Emelia Maria Vandemoortele)"
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "Dowdell, Miss. Elizabeth",
+              "val": "Dowdell, Miss. Elizabeth"
+            },
+            {
+              "color": "rgba(133, 67, 224, 1)",
+              "originalVal": "Sheerlinck, Mr. Jan Baptist",
+              "val": "Sheerlinck, Mr. Jan Baptist"
+            },
+            {
+              "color": "rgba(63, 174, 204, 1)",
+              "originalVal": "Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)",
+              "val": "Faunthorpe, Mrs. Lizzie (Elizabeth Anne Wilkinson)"
+            },
+            {
+              "color": "rgba(49, 16, 208, 1)",
+              "originalVal": "Nye, Mrs. (Elizabeth Ramell)",
+              "val": "Nye, Mrs. (Elizabeth Ramell)"
+            },
+            {
+              "color": "rgba(232, 143, 0, 1)",
+              "originalVal": "Christmann, Mr. Emil",
+              "val": "Christmann, Mr. Emil"
+            },
+            {
+              "color": "rgba(222, 35, 147, 1)",
+              "originalVal": "Novel, Mr. Mansouer",
+              "val": "Novel, Mr. Mansouer"
+            },
+            {
+              "color": "rgba(145, 186, 56, 1)",
+              "originalVal": "Carrau, Mr. Francisco M",
+              "val": "Carrau, Mr. Francisco M"
+            },
+            {
+              "color": "rgba(153, 180, 191, 1)",
+              "originalVal": "Meyer, Mr. Edgar Joseph",
+              "val": "Meyer, Mr. Edgar Joseph"
+            },
+            {
+              "color": "rgba(33, 106, 88, 1)",
+              "originalVal": "Sloper, Mr. William Thompson",
+              "val": "Sloper, Mr. William Thompson"
+            },
+            {
+              "color": "rgba(171, 148, 56, 1)",
+              "originalVal": "Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)",
+              "val": "Johnson, Mrs. Oscar W (Elisabeth Vilhelmina Berg)"
+            },
+            {
+              "color": "rgba(244, 153, 155, 1)",
+              "originalVal": "Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)",
+              "val": "Turpin, Mrs. William John Robert (Dorothy Ann Wonnacott)"
+            },
+            {
+              "color": "rgba(201, 191, 225, 1)",
+              "originalVal": "Chronopoulos, Mr. Apostolos",
+              "val": "Chronopoulos, Mr. Apostolos"
+            },
+            {
+              "color": "rgba(5, 81, 102, 1)",
+              "originalVal": "Kink, Mr. Vincenz",
+              "val": "Kink, Mr. Vincenz"
+            },
+            {
+              "color": "rgba(31, 19, 90, 1)",
+              "originalVal": "Dean, Mr. Bertram Frank",
+              "val": "Dean, Mr. Bertram Frank"
+            },
+            {
+              "color": "rgba(67, 20, 10, 1)",
+              "originalVal": "Heikkinen, Miss. Laina",
+              "val": "Heikkinen, Miss. Laina"
+            },
+            {
+              "color": "rgba(150, 0, 90, 1)",
+              "originalVal": "Moen, Mr. Sigurd Hansen",
+              "val": "Moen, Mr. Sigurd Hansen"
+            },
+            {
+              "color": "rgba(141, 141, 141, 1)",
+              "originalVal": "Celotti, Mr. Francesco",
+              "val": "Celotti, Mr. Francesco"
+            },
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "Fortune, Miss. Mabel Helen",
+              "val": "Fortune, Miss. Mabel Helen"
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "Greenfield, Mr. William Bertram",
+              "val": "Greenfield, Mr. William Bertram"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "Sirayanian, Mr. Orsen",
+              "val": "Sirayanian, Mr. Orsen"
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "Waelens, Mr. Achille",
+              "val": "Waelens, Mr. Achille"
+            },
+            {
+              "color": "rgba(133, 67, 224, 1)",
+              "originalVal": "Braund, Mr. Owen Harris",
+              "val": "Braund, Mr. Owen Harris"
+            },
+            {
+              "color": "rgba(63, 174, 204, 1)",
+              "originalVal": "Nosworthy, Mr. Richard Cater",
+              "val": "Nosworthy, Mr. Richard Cater"
+            },
+            {
+              "color": "rgba(49, 16, 208, 1)",
+              "originalVal": "Hood, Mr. Ambrose Jr",
+              "val": "Hood, Mr. Ambrose Jr"
+            },
+            {
+              "color": "rgba(232, 143, 0, 1)",
+              "originalVal": "Rugg, Miss. Emily",
+              "val": "Rugg, Miss. Emily"
+            },
+            {
+              "color": "rgba(222, 35, 147, 1)",
+              "originalVal": "Cann, Mr. Ernest Charles",
+              "val": "Cann, Mr. Ernest Charles"
+            },
+            {
+              "color": "rgba(145, 186, 56, 1)",
+              "originalVal": "Saundercock, Mr. William Henry",
+              "val": "Saundercock, Mr. William Henry"
+            },
+            {
+              "color": "rgba(153, 180, 191, 1)",
+              "originalVal": "Andreasson, Mr. Paul Edvin",
+              "val": "Andreasson, Mr. Paul Edvin"
+            },
+            {
+              "color": "rgba(33, 106, 88, 1)",
+              "originalVal": "Fortune, Mr. Charles Alexander",
+              "val": "Fortune, Mr. Charles Alexander"
+            },
+            {
+              "color": "rgba(171, 148, 56, 1)",
+              "originalVal": "Devaney, Miss. Margaret Delia",
+              "val": "Devaney, Miss. Margaret Delia"
+            },
+            {
+              "color": "rgba(244, 153, 155, 1)",
+              "originalVal": "Crease, Mr. Ernest James",
+              "val": "Crease, Mr. Ernest James"
+            },
+            {
+              "color": "rgba(201, 191, 225, 1)",
+              "originalVal": "Vander Planke, Miss. Augusta Maria",
+              "val": "Vander Planke, Miss. Augusta Maria"
+            },
+            {
+              "color": "rgba(5, 81, 102, 1)",
+              "originalVal": "Arnold-Franchi, Mrs. Josef (Josefine Franchi)",
+              "val": "Arnold-Franchi, Mrs. Josef (Josefine Franchi)"
+            },
+            {
+              "color": "rgba(31, 19, 90, 1)",
+              "originalVal": "Andersson, Miss. Erna Alexandra",
+              "val": "Andersson, Miss. Erna Alexandra"
+            },
+            {
+              "color": "rgba(67, 20, 10, 1)",
+              "originalVal": "Ilett, Miss. Bertha",
+              "val": "Ilett, Miss. Bertha"
+            },
+            {
+              "color": "rgba(150, 0, 90, 1)",
+              "originalVal": "Ford, Mr. William Neal",
+              "val": "Ford, Mr. William Neal"
+            },
+            {
+              "color": "rgba(141, 141, 141, 1)",
+              "originalVal": "Goodwin, Miss. Lillian Amy",
+              "val": "Goodwin, Miss. Lillian Amy"
+            },
+            {
+              "color": "rgba(66, 132, 245, 1)",
+              "originalVal": "\"McGowan, Miss. Anna \"\"Annie\"\"\"",
+              "val": "\"McGowan, Miss. Anna \"\"Annie\"\"\""
+            },
+            {
+              "color": "rgba(3, 185, 140, 1)",
+              "originalVal": "Vestrom, Miss. Hulda Amanda Adolfina",
+              "val": "Vestrom, Miss. Hulda Amanda Adolfina"
+            },
+            {
+              "color": "rgba(250, 204, 20, 1)",
+              "originalVal": "Nicola-Yarred, Miss. Jamila",
+              "val": "Nicola-Yarred, Miss. Jamila"
+            },
+            {
+              "color": "rgba(245, 40, 45, 1)",
+              "originalVal": "Nasser, Mrs. Nicholas (Adele Achem)",
+              "val": "Nasser, Mrs. Nicholas (Adele Achem)"
+            },
+            {
+              "color": "rgba(133, 67, 224, 1)",
+              "originalVal": "Goodwin, Master. William Frederick",
+              "val": "Goodwin, Master. William Frederick"
+            },
+            {
+              "color": "rgba(63, 174, 204, 1)",
+              "originalVal": "Palsson, Miss. Torborg Danira",
+              "val": "Palsson, Miss. Torborg Danira"
+            },
+            {
+              "color": "rgba(49, 16, 208, 1)",
+              "originalVal": "Panula, Master. Juha Niilo",
+              "val": "Panula, Master. Juha Niilo"
+            },
+            {
+              "color": "rgba(232, 143, 0, 1)",
+              "originalVal": "West, Miss. Constance Mirium",
+              "val": "West, Miss. Constance Mirium"
+            },
+            {
+              "color": "rgba(222, 35, 147, 1)",
+              "originalVal": "Sandstrom, Miss. Marguerite Rut",
+              "val": "Sandstrom, Miss. Marguerite Rut"
+            },
+            {
+              "color": "rgba(145, 186, 56, 1)",
+              "originalVal": "Skoog, Master. Harald",
+              "val": "Skoog, Master. Harald"
+            },
+            {
+              "color": "rgba(153, 180, 191, 1)",
+              "originalVal": "Laroche, Miss. Simonne Marie Anne Andree",
+              "val": "Laroche, Miss. Simonne Marie Anne Andree"
+            },
+            {
+              "color": "rgba(33, 106, 88, 1)",
+              "originalVal": "Palsson, Master. Gosta Leonard",
+              "val": "Palsson, Master. Gosta Leonard"
+            },
+            {
+              "color": "rgba(171, 148, 56, 1)",
+              "originalVal": "Rice, Master. Eugene",
+              "val": "Rice, Master. Eugene"
+            },
+            {
+              "color": "rgba(244, 153, 155, 1)",
+              "originalVal": "Caldwell, Master. Alden Gates",
+              "val": "Caldwell, Master. Alden Gates"
+            }
+          ],
+          "name": "Name",
+          "opacity": 100
+        }
+      ],
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(Age)",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Age)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": false,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(Age) percent",
+          "keyId": "0-0}",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Age) percent",
+          "type": "linear"
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "up"
+      },
+      "originalChecked": true,
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": true,
+          "id": "Name",
+          "key": "Name",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "Name",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": true,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(Age)",
+          "key": "sum(Age)",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(Age)",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": true,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "percent",
+            "setFlag": true,
+            "suffix": "%",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": false,
+          "id": "sum(Age) percent",
+          "key": "sum(Age) percent",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": true
+          },
+          "title": "sum(Age) percent",
+          "type": "linear"
+        }
+      ],
+      "dpr": 2,
+      "fitModel": "full"
+    },
+    "features": {
+      "color": {
+        "dtype": "CAT",
+        "name": "Name"
+      },
+      "labels": [
+        {
+          "dtype": "AGGR",
+          "legend": "SUM",
+          "name": "Age"
+        }
+      ],
+      "n": 1000,
+      "nrows": 1000,
+      "size": {
+        "dtype": "AGGR",
+        "legend": "SUM",
+        "name": "Age"
+      }
+    },
+    "worksheet_id": "49ad308cfdf511edaabffe83acd330c3",
+    "worksheet_idx": 4,
+    "worksheet_name": "canvas4",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas4",
+    "worksheet_title_css": null,
+    "worksheet_type": "06",
+    "dpr": 2
+  }
+}

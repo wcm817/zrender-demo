@@ -1,0 +1,3766 @@
+{
+  "config": {
+    "code": 0,
+    "css": {
+      "bgCss": {
+        "background": "#FFFFFF",
+        "color": "#6b6b6b",
+        "index": 0,
+        "opacity": 100
+      },
+      "colorList": [
+        {
+          "canvasType": "bar",
+          "color": "#4284f5",
+          "feature": "Cabin",
+          "fillType": "fill",
+          "key": "sum(Age)11",
+          "keyId": "0-0",
+          "keyName": "Age",
+          "list": {
+            "A10": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "A14": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "A16": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "A19": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "A20": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "A23": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "A24": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "A26": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "A31": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "A32": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "A34": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "A36": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "A5": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "A6": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "A7": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "B101": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "B102": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "B18": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "B19": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "B20": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "B22": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "B28": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "B3": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "B30": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "B35": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "B37": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "B38": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "B39": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "B4": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "B41": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "B42": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "B49": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "B5": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "B50": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "B51 B53 B55": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "B57 B59 B63 B66": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "B58 B60": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "B69": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "B71": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "B73": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "B77": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "B78": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "B79": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "B80": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "B82 B84": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "B86": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "B94": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "B96 B98": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "C101": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "C103": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "C104": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "C106": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "C110": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "C111": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "C118": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "C123": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "C124": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "C125": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "C126": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "C128": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "C148": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "C2": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "C22 C26": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "C23 C25 C27": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "C30": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "C32": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "C45": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "C46": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "C47": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "C49": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "C50": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "C52": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "C54": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "C62 C64": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "C65": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "C68": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "C7": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "C70": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "C78": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "C82": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "C83": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "C85": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "C86": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "C87": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "C90": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "C91": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "C92": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "C93": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "C95": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "C99": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "D": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "D10 D12": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "D11": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "D15": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "D17": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "D19": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "D20": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "D21": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "D26": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "D28": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "D30": {
+              "color": "#DE2393",
+              "fillType": "fill"
+            },
+            "D33": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "D35": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "D36": {
+              "color": "#96005A",
+              "fillType": "fill"
+            },
+            "D37": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "D45": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "D46": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "D47": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "D48": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "D49": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "D50": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "D56": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "D6": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "D7": {
+              "color": "#99B4BF",
+              "fillType": "fill"
+            },
+            "D9": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "E10": {
+              "color": "#C9BFE1",
+              "fillType": "fill"
+            },
+            "E101": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "E12": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "E121": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "E17": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "E24": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "E25": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "E31": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "E33": {
+              "color": "#91BA38",
+              "fillType": "fill"
+            },
+            "E34": {
+              "color": "#03B98C",
+              "fillType": "fill"
+            },
+            "E36": {
+              "color": "#43140A",
+              "fillType": "fill"
+            },
+            "E38": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "E40": {
+              "color": "#3110D0",
+              "fillType": "fill"
+            },
+            "E44": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "E46": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "E49": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            },
+            "E50": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "E58": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "E63": {
+              "color": "#F5282D",
+              "fillType": "fill"
+            },
+            "E67": {
+              "color": "#3FAECC",
+              "fillType": "fill"
+            },
+            "E68": {
+              "color": "#FACC14",
+              "fillType": "fill"
+            },
+            "E77": {
+              "color": "#216A58",
+              "fillType": "fill"
+            },
+            "E8": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "F E69": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "F G63": {
+              "color": "#8D8D8D",
+              "fillType": "fill"
+            },
+            "F G73": {
+              "color": "#1F135A",
+              "fillType": "fill"
+            },
+            "F2": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "F33": {
+              "color": "#055166",
+              "fillType": "fill"
+            },
+            "F38": {
+              "color": "#AB9438",
+              "fillType": "fill"
+            },
+            "F4": {
+              "color": "#F4999B",
+              "fillType": "fill"
+            },
+            "G6": {
+              "color": "#8543E0",
+              "fillType": "fill"
+            },
+            "T": {
+              "color": "#E88F00",
+              "fillType": "fill"
+            },
+            "null": {
+              "color": "#4284F5",
+              "fillType": "fill"
+            }
+          },
+          "opacity": 100,
+          "originalKey": "sum(Age)",
+          "type": "ordinal"
+        }
+      ],
+      "fitModel": "full",
+      "hasGap": true,
+      "hasScale": true,
+      "hasUnit": "auto",
+      "labelsList": [
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": "origin",
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "key": "sum(Age)",
+          "keyId": "0-0",
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6b6b6b",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Age)",
+          "type": "linear",
+          "value": null
+        }
+      ],
+      "legendCss": {
+        "isShow": true,
+        "position": "UP"
+      },
+      "scopeList": [],
+      "titleCss": {
+        "color": "#6B6B6B"
+      },
+      "tooltipList": [
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "Embarked",
+          "key": "Embarked",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "Embarked",
+          "type": "ordinal"
+        },
+        {
+          "display": "auto",
+          "format": {
+            "check": false,
+            "decimal": 2,
+            "isPercent": false,
+            "negative": "-1234",
+            "prefix": "",
+            "selectFormat": -1,
+            "setFlag": false,
+            "suffix": "",
+            "unit": "",
+            "useThousandMark": true,
+            "zone": "¥ 人民币"
+          },
+          "hasLegend": true,
+          "id": "sum(Age)",
+          "key": "sum(Age)",
+          "legendCheck": true,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "sum(Age)11",
+          "type": "linear"
+        },
+        {
+          "display": "auto",
+          "format": {},
+          "hasLegend": false,
+          "id": "Cabin",
+          "key": "Cabin",
+          "legendCheck": false,
+          "text": {
+            "align": "left",
+            "check": false,
+            "decoration": "",
+            "display": "auto",
+            "fontColor": "#6B6B6B",
+            "fontSize": 12,
+            "fontStyle": "normal",
+            "letterSpacing": "0",
+            "lineHeight": "24",
+            "setFlag": false
+          },
+          "title": "Cabin",
+          "type": "ordinal"
+        }
+      ],
+      "dpr": 2
+    },
+    "features": {
+      "ncols": 1000,
+      "x": [
+        {
+          "dtype": "CAT",
+          "name": "Embarked"
+        }
+      ],
+      "y": [
+        {
+          "feature": {
+            "color": {
+              "dtype": "CAT",
+              "name": "Cabin"
+            },
+            "dtype": "AGGR",
+            "labels": [
+              {
+                "dtype": "AGGR",
+                "legend": "SUM",
+                "name": "Age"
+              }
+            ],
+            "legend": "SUM",
+            "name": "Age"
+          }
+        }
+      ]
+    },
+    "worksheet_id": "83475e1448a811eea61ede31f2f2469a",
+    "worksheet_idx": 17,
+    "worksheet_name": "canvas17",
+    "worksheet_subtype": null,
+    "worksheet_title": "canvas17",
+    "worksheet_title_css": null,
+    "worksheet_type": "15",
+    "dpr": 2
+  },
+  "data": {
+    "code": 0,
+    "features_data": [
+      {
+        "feature": [
+          {
+            "Cabin": "null",
+            "Embarked": "S",
+            "sum(Age)": 12296.33
+          },
+          {
+            "Cabin": "C85",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C123",
+            "Embarked": "S",
+            "sum(Age)": 72
+          },
+          {
+            "Cabin": "E46",
+            "Embarked": "S",
+            "sum(Age)": 54
+          },
+          {
+            "Cabin": "G6",
+            "Embarked": "S",
+            "sum(Age)": 59
+          },
+          {
+            "Cabin": "C103",
+            "Embarked": "S",
+            "sum(Age)": 58
+          },
+          {
+            "Cabin": "D56",
+            "Embarked": "S",
+            "sum(Age)": 34
+          },
+          {
+            "Cabin": "A6",
+            "Embarked": "S",
+            "sum(Age)": 28
+          },
+          {
+            "Cabin": "C23 C25 C27",
+            "Embarked": "S",
+            "sum(Age)": 130
+          },
+          {
+            "Cabin": "B78",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D33",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B30",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C52",
+            "Embarked": "S",
+            "sum(Age)": 28
+          },
+          {
+            "Cabin": "B28",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C83",
+            "Embarked": "S",
+            "sum(Age)": 80
+          },
+          {
+            "Cabin": "F33",
+            "Embarked": "S",
+            "sum(Age)": 87
+          },
+          {
+            "Cabin": "F G73",
+            "Embarked": "S",
+            "sum(Age)": 44
+          },
+          {
+            "Cabin": "E31",
+            "Embarked": "S",
+            "sum(Age)": 46
+          },
+          {
+            "Cabin": "A5",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D10 D12",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D26",
+            "Embarked": "S",
+            "sum(Age)": 75
+          },
+          {
+            "Cabin": "C110",
+            "Embarked": "S",
+            "sum(Age)": 47
+          },
+          {
+            "Cabin": "B58 B60",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E101",
+            "Embarked": "S",
+            "sum(Age)": 59.5
+          },
+          {
+            "Cabin": "F E69",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D47",
+            "Embarked": "S",
+            "sum(Age)": 19
+          },
+          {
+            "Cabin": "B86",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F2",
+            "Embarked": "S",
+            "sum(Age)": 41.5
+          },
+          {
+            "Cabin": "C2",
+            "Embarked": "S",
+            "sum(Age)": 51
+          },
+          {
+            "Cabin": "E33",
+            "Embarked": "S",
+            "sum(Age)": 22
+          },
+          {
+            "Cabin": "B19",
+            "Embarked": "S",
+            "sum(Age)": 61
+          },
+          {
+            "Cabin": "A7",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C49",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F4",
+            "Embarked": "S",
+            "sum(Age)": 5
+          },
+          {
+            "Cabin": "A32",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "B4",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B80",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A31",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D36",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D15",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C93",
+            "Embarked": "S",
+            "sum(Age)": 73
+          },
+          {
+            "Cabin": "C78",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D35",
+            "Embarked": "S",
+            "sum(Age)": 84
+          },
+          {
+            "Cabin": "C87",
+            "Embarked": "S",
+            "sum(Age)": 62
+          },
+          {
+            "Cabin": "B77",
+            "Embarked": "S",
+            "sum(Age)": 63
+          },
+          {
+            "Cabin": "E67",
+            "Embarked": "S",
+            "sum(Age)": 91
+          },
+          {
+            "Cabin": "B94",
+            "Embarked": "S",
+            "sum(Age)": 40
+          },
+          {
+            "Cabin": "C125",
+            "Embarked": "S",
+            "sum(Age)": 98
+          },
+          {
+            "Cabin": "C99",
+            "Embarked": "S",
+            "sum(Age)": 35
+          },
+          {
+            "Cabin": "C118",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D7",
+            "Embarked": "S",
+            "sum(Age)": 63
+          },
+          {
+            "Cabin": "A19",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "B49",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D",
+            "Embarked": "S",
+            "sum(Age)": 36
+          },
+          {
+            "Cabin": "C22 C26",
+            "Embarked": "S",
+            "sum(Age)": 27.92
+          },
+          {
+            "Cabin": "C106",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "C65",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E36",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C54",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B57 B59 B63 B66",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C7",
+            "Embarked": "S",
+            "sum(Age)": 31
+          },
+          {
+            "Cabin": "E34",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C32",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B18",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C124",
+            "Embarked": "S",
+            "sum(Age)": 45.5
+          },
+          {
+            "Cabin": "C91",
+            "Embarked": "S",
+            "sum(Age)": 38
+          },
+          {
+            "Cabin": "E40",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "T",
+            "Embarked": "S",
+            "sum(Age)": 45
+          },
+          {
+            "Cabin": "C128",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "D37",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B35",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E50",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C82",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B96 B98",
+            "Embarked": "S",
+            "sum(Age)": 97
+          },
+          {
+            "Cabin": "E10",
+            "Embarked": "S",
+            "sum(Age)": 32
+          },
+          {
+            "Cabin": "E44",
+            "Embarked": "S",
+            "sum(Age)": 89
+          },
+          {
+            "Cabin": "A34",
+            "Embarked": "S",
+            "sum(Age)": 4
+          },
+          {
+            "Cabin": "C104",
+            "Embarked": "S",
+            "sum(Age)": 52
+          },
+          {
+            "Cabin": "C111",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C92",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E38",
+            "Embarked": "S",
+            "sum(Age)": 65
+          },
+          {
+            "Cabin": "D21",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "E12",
+            "Embarked": "S",
+            "sum(Age)": 48
+          },
+          {
+            "Cabin": "E63",
+            "Embarked": "S",
+            "sum(Age)": 47
+          },
+          {
+            "Cabin": "A14",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "B37",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C30",
+            "Embarked": "S",
+            "sum(Age)": 55
+          },
+          {
+            "Cabin": "D20",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B79",
+            "Embarked": "S",
+            "sum(Age)": 16
+          },
+          {
+            "Cabin": "E25",
+            "Embarked": "S",
+            "sum(Age)": 72
+          },
+          {
+            "Cabin": "D46",
+            "Embarked": "S",
+            "sum(Age)": 47
+          },
+          {
+            "Cabin": "B73",
+            "Embarked": "S",
+            "sum(Age)": 30
+          },
+          {
+            "Cabin": "C95",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "B38",
+            "Embarked": "S",
+            "sum(Age)": 45
+          },
+          {
+            "Cabin": "B39",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B22",
+            "Embarked": "S",
+            "sum(Age)": 106
+          },
+          {
+            "Cabin": "C86",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C70",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A16",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C101",
+            "Embarked": "S",
+            "sum(Age)": 53
+          },
+          {
+            "Cabin": "C68",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A10",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E68",
+            "Embarked": "S",
+            "sum(Age)": 18
+          },
+          {
+            "Cabin": "B41",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A20",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D19",
+            "Embarked": "S",
+            "sum(Age)": 42
+          },
+          {
+            "Cabin": "D50",
+            "Embarked": "S",
+            "sum(Age)": 61
+          },
+          {
+            "Cabin": "D9",
+            "Embarked": "S",
+            "sum(Age)": 21
+          },
+          {
+            "Cabin": "A23",
+            "Embarked": "S",
+            "sum(Age)": 80
+          },
+          {
+            "Cabin": "B50",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A26",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D48",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E58",
+            "Embarked": "S",
+            "sum(Age)": 47
+          },
+          {
+            "Cabin": "C126",
+            "Embarked": "S",
+            "sum(Age)": 48
+          },
+          {
+            "Cabin": "B71",
+            "Embarked": "S",
+            "sum(Age)": 31
+          },
+          {
+            "Cabin": "B51 B53 B55",
+            "Embarked": "S",
+            "sum(Age)": 33
+          },
+          {
+            "Cabin": "D49",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B5",
+            "Embarked": "S",
+            "sum(Age)": 44
+          },
+          {
+            "Cabin": "B20",
+            "Embarked": "S",
+            "sum(Age)": 48
+          },
+          {
+            "Cabin": "F G63",
+            "Embarked": "S",
+            "sum(Age)": 42
+          },
+          {
+            "Cabin": "C62 C64",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E24",
+            "Embarked": "S",
+            "sum(Age)": 77
+          },
+          {
+            "Cabin": "C90",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C45",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E8",
+            "Embarked": "S",
+            "sum(Age)": 60
+          },
+          {
+            "Cabin": "B101",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D45",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "C46",
+            "Embarked": "S",
+            "sum(Age)": 36
+          },
+          {
+            "Cabin": "D30",
+            "Embarked": "S",
+            "sum(Age)": 19
+          },
+          {
+            "Cabin": "E121",
+            "Embarked": "S",
+            "sum(Age)": 33
+          },
+          {
+            "Cabin": "D11",
+            "Embarked": "S",
+            "sum(Age)": 51
+          },
+          {
+            "Cabin": "E77",
+            "Embarked": "S",
+            "sum(Age)": 57
+          },
+          {
+            "Cabin": "F38",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B3",
+            "Embarked": "S",
+            "sum(Age)": 43
+          },
+          {
+            "Cabin": "D6",
+            "Embarked": "S",
+            "sum(Age)": 29
+          },
+          {
+            "Cabin": "B82 B84",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D17",
+            "Embarked": "S",
+            "sum(Age)": 97
+          },
+          {
+            "Cabin": "A36",
+            "Embarked": "S",
+            "sum(Age)": 39
+          },
+          {
+            "Cabin": "B102",
+            "Embarked": "S",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "B69",
+            "Embarked": "S",
+            "sum(Age)": 52
+          },
+          {
+            "Cabin": "E49",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C47",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D28",
+            "Embarked": "S",
+            "sum(Age)": 16
+          },
+          {
+            "Cabin": "E17",
+            "Embarked": "S",
+            "sum(Age)": 51
+          },
+          {
+            "Cabin": "A24",
+            "Embarked": "S",
+            "sum(Age)": 31
+          },
+          {
+            "Cabin": "C50",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B42",
+            "Embarked": "S",
+            "sum(Age)": 19
+          },
+          {
+            "Cabin": "C148",
+            "Embarked": "S",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "null",
+            "Embarked": "C",
+            "sum(Age)": 1570.92
+          },
+          {
+            "Cabin": "C85",
+            "Embarked": "C",
+            "sum(Age)": 38
+          },
+          {
+            "Cabin": "C123",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E46",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "G6",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C103",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D56",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A6",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C23 C25 C27",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B78",
+            "Embarked": "C",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "D33",
+            "Embarked": "C",
+            "sum(Age)": 97
+          },
+          {
+            "Cabin": "B30",
+            "Embarked": "C",
+            "sum(Age)": 65
+          },
+          {
+            "Cabin": "C52",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B28",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C83",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F33",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F G73",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E31",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A5",
+            "Embarked": "C",
+            "sum(Age)": 71
+          },
+          {
+            "Cabin": "D10 D12",
+            "Embarked": "C",
+            "sum(Age)": 23
+          },
+          {
+            "Cabin": "D26",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C110",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B58 B60",
+            "Embarked": "C",
+            "sum(Age)": 74
+          },
+          {
+            "Cabin": "E101",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F E69",
+            "Embarked": "C",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "D47",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B86",
+            "Embarked": "C",
+            "sum(Age)": 24
+          },
+          {
+            "Cabin": "F2",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C2",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E33",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B19",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A7",
+            "Embarked": "C",
+            "sum(Age)": 56
+          },
+          {
+            "Cabin": "C49",
+            "Embarked": "C",
+            "sum(Age)": 50
+          },
+          {
+            "Cabin": "F4",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A32",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B4",
+            "Embarked": "C",
+            "sum(Age)": 44
+          },
+          {
+            "Cabin": "B80",
+            "Embarked": "C",
+            "sum(Age)": 58
+          },
+          {
+            "Cabin": "A31",
+            "Embarked": "C",
+            "sum(Age)": 40
+          },
+          {
+            "Cabin": "D36",
+            "Embarked": "C",
+            "sum(Age)": 54
+          },
+          {
+            "Cabin": "D15",
+            "Embarked": "C",
+            "sum(Age)": 32
+          },
+          {
+            "Cabin": "C93",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C78",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D35",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C87",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B77",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E67",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B94",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C125",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C99",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C118",
+            "Embarked": "C",
+            "sum(Age)": 37
+          },
+          {
+            "Cabin": "D7",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A19",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B49",
+            "Embarked": "C",
+            "sum(Age)": 44
+          },
+          {
+            "Cabin": "D",
+            "Embarked": "C",
+            "sum(Age)": 59
+          },
+          {
+            "Cabin": "C22 C26",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C106",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C65",
+            "Embarked": "C",
+            "sum(Age)": 35
+          },
+          {
+            "Cabin": "E36",
+            "Embarked": "C",
+            "sum(Age)": 30
+          },
+          {
+            "Cabin": "C54",
+            "Embarked": "C",
+            "sum(Age)": 24
+          },
+          {
+            "Cabin": "B57 B59 B63 B66",
+            "Embarked": "C",
+            "sum(Age)": 39
+          },
+          {
+            "Cabin": "C7",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E34",
+            "Embarked": "C",
+            "sum(Age)": 40
+          },
+          {
+            "Cabin": "C32",
+            "Embarked": "C",
+            "sum(Age)": 36
+          },
+          {
+            "Cabin": "B18",
+            "Embarked": "C",
+            "sum(Age)": 60
+          },
+          {
+            "Cabin": "C124",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C91",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E40",
+            "Embarked": "C",
+            "sum(Age)": 41
+          },
+          {
+            "Cabin": "T",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C128",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D37",
+            "Embarked": "C",
+            "sum(Age)": 60
+          },
+          {
+            "Cabin": "B35",
+            "Embarked": "C",
+            "sum(Age)": 48
+          },
+          {
+            "Cabin": "E50",
+            "Embarked": "C",
+            "sum(Age)": 25
+          },
+          {
+            "Cabin": "C82",
+            "Embarked": "C",
+            "sum(Age)": 27
+          },
+          {
+            "Cabin": "B96 B98",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E10",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E44",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A34",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C104",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C111",
+            "Embarked": "C",
+            "sum(Age)": 30
+          },
+          {
+            "Cabin": "C92",
+            "Embarked": "C",
+            "sum(Age)": 49
+          },
+          {
+            "Cabin": "E38",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D21",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E12",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E63",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A14",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B37",
+            "Embarked": "C",
+            "sum(Age)": 58
+          },
+          {
+            "Cabin": "C30",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D20",
+            "Embarked": "C",
+            "sum(Age)": 106
+          },
+          {
+            "Cabin": "B79",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E25",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D46",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B73",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C95",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B38",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B39",
+            "Embarked": "C",
+            "sum(Age)": 22
+          },
+          {
+            "Cabin": "B22",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C86",
+            "Embarked": "C",
+            "sum(Age)": 50
+          },
+          {
+            "Cabin": "C70",
+            "Embarked": "C",
+            "sum(Age)": 17
+          },
+          {
+            "Cabin": "A16",
+            "Embarked": "C",
+            "sum(Age)": 48
+          },
+          {
+            "Cabin": "C101",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C68",
+            "Embarked": "C",
+            "sum(Age)": 88
+          },
+          {
+            "Cabin": "A10",
+            "Embarked": "C",
+            "sum(Age)": 36
+          },
+          {
+            "Cabin": "E68",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B41",
+            "Embarked": "C",
+            "sum(Age)": 60
+          },
+          {
+            "Cabin": "A20",
+            "Embarked": "C",
+            "sum(Age)": 49
+          },
+          {
+            "Cabin": "D19",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D50",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D9",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A23",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B50",
+            "Embarked": "C",
+            "sum(Age)": 32
+          },
+          {
+            "Cabin": "A26",
+            "Embarked": "C",
+            "sum(Age)": 56
+          },
+          {
+            "Cabin": "D48",
+            "Embarked": "C",
+            "sum(Age)": 58
+          },
+          {
+            "Cabin": "E58",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C126",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B71",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B51 B53 B55",
+            "Embarked": "C",
+            "sum(Age)": 36
+          },
+          {
+            "Cabin": "D49",
+            "Embarked": "C",
+            "sum(Age)": 27
+          },
+          {
+            "Cabin": "B5",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B20",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F G63",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C62 C64",
+            "Embarked": "C",
+            "sum(Age)": 18
+          },
+          {
+            "Cabin": "E24",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C90",
+            "Embarked": "C",
+            "sum(Age)": 24
+          },
+          {
+            "Cabin": "C45",
+            "Embarked": "C",
+            "sum(Age)": 38
+          },
+          {
+            "Cabin": "E8",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B101",
+            "Embarked": "C",
+            "sum(Age)": 35
+          },
+          {
+            "Cabin": "D45",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C46",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D30",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E121",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D11",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E77",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F38",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B3",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D6",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B82 B84",
+            "Embarked": "C",
+            "sum(Age)": 46
+          },
+          {
+            "Cabin": "D17",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A36",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B102",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B69",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E49",
+            "Embarked": "C",
+            "sum(Age)": 39
+          },
+          {
+            "Cabin": "C47",
+            "Embarked": "C",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "D28",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E17",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A24",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C50",
+            "Embarked": "C",
+            "sum(Age)": 56
+          },
+          {
+            "Cabin": "B42",
+            "Embarked": "C",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C148",
+            "Embarked": "C",
+            "sum(Age)": 26
+          },
+          {
+            "Cabin": "null",
+            "Embarked": "Q",
+            "sum(Age)": 709.5
+          },
+          {
+            "Cabin": "C85",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C123",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E46",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "G6",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C103",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D56",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A6",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C23 C25 C27",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B78",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D33",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B30",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C52",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B28",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C83",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F33",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F G73",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E31",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A5",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D10 D12",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D26",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C110",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B58 B60",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E101",
+            "Embarked": "Q",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "F E69",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D47",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B86",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F2",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C2",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E33",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B19",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A7",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C49",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F4",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A32",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B4",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B80",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A31",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D36",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D15",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C93",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C78",
+            "Embarked": "Q",
+            "sum(Age)": 77
+          },
+          {
+            "Cabin": "D35",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C87",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B77",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E67",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B94",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C125",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C99",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C118",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D7",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A19",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B49",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C22 C26",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C106",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C65",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E36",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C54",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B57 B59 B63 B66",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C7",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E34",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C32",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B18",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C124",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C91",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E40",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "T",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C128",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D37",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B35",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E50",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C82",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B96 B98",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E10",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E44",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A34",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C104",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C111",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C92",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E38",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D21",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E12",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E63",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A14",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B37",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C30",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D20",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B79",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E25",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D46",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B73",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C95",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B38",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B39",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B22",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C86",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C70",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A16",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C101",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C68",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A10",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E68",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B41",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A20",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D19",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D50",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D9",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A23",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B50",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A26",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D48",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E58",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C126",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B71",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B51 B53 B55",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D49",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B5",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B20",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F G63",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C62 C64",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E24",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C90",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C45",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E8",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B101",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D45",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C46",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D30",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E121",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D11",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E77",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F38",
+            "Embarked": "Q",
+            "sum(Age)": 0
+          },
+          {
+            "Cabin": "B3",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D6",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B82 B84",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D17",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A36",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B102",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B69",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E49",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C47",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D28",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E17",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A24",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C50",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B42",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C148",
+            "Embarked": "Q",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "null",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C85",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C123",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E46",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "G6",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C103",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D56",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A6",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C23 C25 C27",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B78",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D33",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B30",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C52",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B28",
+            "Embarked": "null",
+            "sum(Age)": 100
+          },
+          {
+            "Cabin": "C83",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F33",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F G73",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E31",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A5",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D10 D12",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D26",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C110",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B58 B60",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E101",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F E69",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D47",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B86",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F2",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C2",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E33",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B19",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A7",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C49",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F4",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A32",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B4",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B80",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A31",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D36",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D15",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C93",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C78",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D35",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C87",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B77",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E67",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B94",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C125",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C99",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C118",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D7",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A19",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B49",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C22 C26",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C106",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C65",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E36",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C54",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B57 B59 B63 B66",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C7",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E34",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C32",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B18",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C124",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C91",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E40",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "T",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C128",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D37",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B35",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E50",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C82",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B96 B98",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E10",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E44",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A34",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C104",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C111",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C92",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E38",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D21",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E12",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E63",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A14",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B37",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C30",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D20",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B79",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E25",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D46",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B73",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C95",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B38",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B39",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B22",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C86",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C70",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A16",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C101",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C68",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A10",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E68",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B41",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A20",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D19",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D50",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D9",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A23",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B50",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A26",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D48",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E58",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C126",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B71",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B51 B53 B55",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D49",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B5",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B20",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F G63",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C62 C64",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E24",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C90",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C45",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E8",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B101",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D45",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C46",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D30",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E121",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D11",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E77",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "F38",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B3",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D6",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B82 B84",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D17",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A36",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B102",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B69",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E49",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C47",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "D28",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "E17",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "A24",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C50",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "B42",
+            "Embarked": "null",
+            "sum(Age)": null
+          },
+          {
+            "Cabin": "C148",
+            "Embarked": "null",
+            "sum(Age)": null
+          }
+        ]
+      }
+    ],
+    "metadata": {
+      "area": [],
+      "color": [],
+      "labels": [],
+      "x_dimensions": [
+        "Embarked"
+      ],
+      "y_dimensions": [
+        null
+      ]
+    }
+  }
+}
